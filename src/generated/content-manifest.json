@@ -1,1 +1,134 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "drain-the-lake-codes",
+        "file": "drain-the-lake-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "drain-the-lake-beginner-guide",
+        "file": "drain-the-lake-beginner-guide"
+      },
+      {
+        "slug": "drain-the-lake-fast-progression",
+        "file": "drain-the-lake-fast-progression"
+      },
+      {
+        "slug": "drain-the-lake-guide",
+        "file": "drain-the-lake-guide"
+      },
+      {
+        "slug": "drain-the-lake-progression-guide",
+        "file": "drain-the-lake-progression-guide"
+      },
+      {
+        "slug": "drain-the-lake-tips",
+        "file": "drain-the-lake-tips"
+      },
+      {
+        "slug": "drain-the-lake-walkthrough",
+        "file": "drain-the-lake-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "drain-the-lake-bucket",
+        "file": "drain-the-lake-bucket"
+      },
+      {
+        "slug": "drain-the-lake-equipment",
+        "file": "drain-the-lake-equipment"
+      },
+      {
+        "slug": "drain-the-lake-items",
+        "file": "drain-the-lake-items"
+      },
+      {
+        "slug": "drain-the-lake-tools",
+        "file": "drain-the-lake-tools"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "drain-the-lake-areas",
+        "file": "drain-the-lake-areas"
+      },
+      {
+        "slug": "drain-the-lake-deepest-level",
+        "file": "drain-the-lake-deepest-level"
+      },
+      {
+        "slug": "drain-the-lake-lake-levels",
+        "file": "drain-the-lake-lake-levels"
+      },
+      {
+        "slug": "drain-the-lake-unlock-levels",
+        "file": "drain-the-lake-unlock-levels"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "drain-the-lake-cave",
+        "file": "drain-the-lake-cave"
+      },
+      {
+        "slug": "drain-the-lake-collectibles",
+        "file": "drain-the-lake-collectibles"
+      },
+      {
+        "slug": "drain-the-lake-hidden-locations",
+        "file": "drain-the-lake-hidden-locations"
+      },
+      {
+        "slug": "drain-the-lake-secret-cave",
+        "file": "drain-the-lake-secret-cave"
+      }
+    ],
+    "tokens": [
+      {
+        "slug": "drain-the-lake-chest-locations",
+        "file": "drain-the-lake-chest-locations"
+      },
+      {
+        "slug": "drain-the-lake-fastest-tokens",
+        "file": "drain-the-lake-fastest-tokens"
+      },
+      {
+        "slug": "drain-the-lake-rewards",
+        "file": "drain-the-lake-rewards"
+      },
+      {
+        "slug": "drain-the-lake-token-farming",
+        "file": "drain-the-lake-token-farming"
+      },
+      {
+        "slug": "drain-the-lake-tokens",
+        "file": "drain-the-lake-tokens"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "drain-the-lake-backpack-upgrades",
+        "file": "drain-the-lake-backpack-upgrades"
+      },
+      {
+        "slug": "drain-the-lake-best-upgrades",
+        "file": "drain-the-lake-best-upgrades"
+      },
+      {
+        "slug": "drain-the-lake-bucket-upgrades",
+        "file": "drain-the-lake-bucket-upgrades"
+      },
+      {
+        "slug": "drain-the-lake-skill-tree",
+        "file": "drain-the-lake-skill-tree"
+      },
+      {
+        "slug": "drain-the-lake-upgrades",
+        "file": "drain-the-lake-upgrades"
+      }
+    ]
+  }
+}

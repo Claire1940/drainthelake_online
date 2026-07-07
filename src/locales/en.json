@@ -10,7 +10,15 @@
       "twitterDescription": "Drain the Lake Wiki covers codes, bucket upgrades, drain cycles, tokens, endings, and tips for the Roblox lake-draining simulator."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "tokens": "Tokens",
+    "upgrades": "Upgrades",
+    "levels": "Levels",
+    "items": "Items",
+    "locations": "Locations"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -375,5 +383,146 @@
     "copyright": "© 2026 Drain the Lake Wiki. Not affiliated with the developers of Drain the Lake or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Drain the Lake Guides",
+      "description": "Complete Drain the Lake guides covering the core gameplay loop, beginner walkthroughs, progression paths, and tips to drain the lake efficiently.",
+      "metaTitle": "Drain the Lake Guides - Walkthrough, Tips & Progression",
+      "metaDescription": "Master Drain the Lake with beginner guides, walkthroughs, progression paths, and tips to fill your bucket, earn tokens, and recover your lost phone.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Drain the Lake Guides?",
+      "whatIsDescription": "Drain the Lake guides break down the game's core loop of filling your bucket, draining water for tokens, upgrading the Skill Tree, and pushing into deeper areas. They walk you through every stage of progression, from your first bucket to the bottom of the lake.",
+      "why": "Why use these guides?",
+      "whySteps": {
+        "step1Title": "Learn the core loop",
+        "step1Description": "Understand the fill, drain, and upgrade cycle that drives every run in Drain the Lake.",
+        "step2Title": "Progress faster",
+        "step2Description": "Follow an efficient upgrade path to earn tokens and unlock deeper areas with fewer wasted runs.",
+        "step3Title": "Avoid common mistakes",
+        "step3Description": "Skip the wasted movement and rushed depth that slow new players down."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "codes": {
+      "title": "Drain the Lake Codes",
+      "description": "Latest Drain the Lake codes status, how redemption works, and what to focus on while codes are unavailable.",
+      "metaTitle": "Drain the Lake Codes - Active Codes & Redemption Guide",
+      "metaDescription": "Check the latest Drain the Lake codes status and learn how redemption works so you can claim free rewards the moment codes go live.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Drain the Lake Codes?",
+      "whatIsDescription": "Drain the Lake codes are redeemable codes that the developers release for free tokens, boosts, or items. This page tracks the current codes status and explains exactly how redemption will work once codes go live.",
+      "why": "Why check codes regularly?",
+      "whySteps": {
+        "step1Title": "Catch new codes fast",
+        "step1Description": "Redeem codes the moment they drop so you never miss a free reward.",
+        "step2Title": "Understand the system",
+        "step2Description": "Know exactly how and where to enter codes inside Drain the Lake.",
+        "step3Title": "Stay progression-ready",
+        "step3Description": "Keep farming tokens and upgrading your Skill Tree so you progress while you wait for new codes."
+      },
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "tokens": {
+      "title": "Drain the Lake Tokens",
+      "description": "Best ways to earn Drain the Lake tokens, including fast farming routes, chest locations, and reward optimization.",
+      "metaTitle": "Drain the Lake Tokens - Fast Farming, Chests & Rewards",
+      "metaDescription": "Learn the fastest ways to farm Drain the Lake tokens, find chest locations, and maximize rewards to upgrade your Skill Tree and go deeper.",
+      "categoryLabel": "TOKENS",
+      "whatIs": "What are Drain the Lake Tokens?",
+      "whatIsDescription": "Tokens are the main progression currency in Drain the Lake, earned by draining collected water. You spend tokens on Skill Tree upgrades that improve bucket capacity, collection speed, and depth progression.",
+      "why": "Why farm tokens efficiently?",
+      "whySteps": {
+        "step1Title": "Speed up progression",
+        "step1Description": "More tokens per run means faster Skill Tree upgrades and deeper dives.",
+        "step2Title": "Find hidden chests",
+        "step2Description": "Locate chests and reward spots that give bonus tokens across the lake.",
+        "step3Title": "Optimize your route",
+        "step3Description": "Cut wasted movement between the water source and the drain point."
+      },
+      "featured": "Featured Token Guides",
+      "all": "All Token Guides"
+    },
+    "upgrades": {
+      "title": "Drain the Lake Upgrades",
+      "description": "Drain the Lake upgrade guides covering the Skill Tree, best upgrades, bucket upgrades, and backpack upgrades for efficient progression.",
+      "metaTitle": "Drain the Lake Upgrades - Skill Tree, Bucket & Best Upgrades",
+      "metaDescription": "Master Drain the Lake upgrades with Skill Tree priorities, bucket upgrades, and backpack upgrades that speed up token farming and depth progression.",
+      "categoryLabel": "UPGRADES",
+      "whatIs": "What are Drain the Lake Upgrades?",
+      "whatIsDescription": "Drain the Lake upgrades are permanent Skill Tree investments that improve every part of your gameplay loop, from bucket capacity and collection speed to backpack size and depth progression.",
+      "why": "Why upgrade strategically?",
+      "whySteps": {
+        "step1Title": "Fix your bottleneck",
+        "step1Description": "Identify the slowest part of your loop and upgrade it first for the biggest gains.",
+        "step2Title": "Build a strong Skill Tree",
+        "step2Description": "Prioritize bucket capacity and token efficiency early for smoother progression.",
+        "step3Title": "Scale backpack and depth",
+        "step3Description": "Expand your backpack and unlock deeper areas as your token income grows."
+      },
+      "featured": "Featured Upgrade Guides",
+      "all": "All Upgrade Guides"
+    },
+    "levels": {
+      "title": "Drain the Lake Levels",
+      "description": "Drain the Lake lake levels and areas guide, covering depths, unlock requirements, and how to reach the deepest level.",
+      "metaTitle": "Drain the Lake Levels - Lake Depths, Areas & Unlock Guide",
+      "metaDescription": "Explore Drain the Lake levels and areas, learn unlock requirements for each depth, and discover how to reach the deepest level of the lake.",
+      "categoryLabel": "LEVELS",
+      "whatIs": "What are Drain the Lake Levels?",
+      "whatIsDescription": "Drain the Lake levels are the depth stages of the lake that you unlock as your Skill Tree and equipment improve. Each level opens new areas, longer routes, and progression toward your lost phone.",
+      "why": "Why understand the level system?",
+      "whySteps": {
+        "step1Title": "Unlock in the right order",
+        "step1Description": "Know which depths open next and what each new level requires.",
+        "step2Title": "Push deeper safely",
+        "step2Description": "Time your depth pushes around your current upgrade level to stay efficient.",
+        "step3Title": "Reach the deepest level",
+        "step3Description": "Follow a clear path from the surface all the way to the bottom of the lake."
+      },
+      "featured": "Featured Level Guides",
+      "all": "All Level Guides"
+    },
+    "items": {
+      "title": "Drain the Lake Items",
+      "description": "Drain the Lake items and tools guide, covering the bucket, equipment, and key objects you use while draining the lake.",
+      "metaTitle": "Drain the Lake Items - Bucket, Tools & Equipment Guide",
+      "metaDescription": "Learn every Drain the Lake item and tool, including the bucket, equipment, and core objects that drive your progression to the lake bottom.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are Drain the Lake Items?",
+      "whatIsDescription": "Drain the Lake items are the tools and equipment you use to collect water, carry it, and progress deeper, including your bucket, backpack, and Skill Tree upgrades.",
+      "why": "Why learn the items?",
+      "whySteps": {
+        "step1Title": "Use the bucket wisely",
+        "step1Description": "Understand how bucket capacity shapes every run you make.",
+        "step2Title": "Pick the right equipment",
+        "step2Description": "Match your tools to your current depth and route for maximum efficiency.",
+        "step3Title": "Track key objectives",
+        "step3Description": "Keep the lost phone and core items in view as you push toward the bottom."
+      },
+      "featured": "Featured Item Guides",
+      "all": "All Item Guides"
+    },
+    "locations": {
+      "title": "Drain the Lake Locations",
+      "description": "Drain the Lake locations guide covering caves, secret caves, hidden areas, and collectibles scattered across the lake.",
+      "metaTitle": "Drain the Lake Locations - Caves, Secrets & Collectibles",
+      "metaDescription": "Discover Drain the Lake locations including caves, secret caves, hidden areas, and collectibles to fully explore the lake and recover your lost phone.",
+      "categoryLabel": "LOCATIONS",
+      "whatIs": "What are Drain the Lake Locations?",
+      "whatIsDescription": "Drain the Lake locations are the caves, secret areas, and collectible spots hidden throughout the lake. Exploring them rewards tokens, progression items, and clues toward your lost phone.",
+      "why": "Why explore every location?",
+      "whySteps": {
+        "step1Title": "Find secret caves",
+        "step1Description": "Locate hidden caves that reward extra tokens and useful items.",
+        "step2Title": "Collect collectibles",
+        "step2Description": "Track down collectibles scattered across every depth of the lake.",
+        "step3Title": "Unlock hidden areas",
+        "step3Description": "Reach hidden areas that speed up your overall progression."
+      },
+      "featured": "Featured Location Guides",
+      "all": "All Location Guides"
+    }
+  }
 }

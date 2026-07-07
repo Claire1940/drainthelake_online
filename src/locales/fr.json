@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "tokens": "Tokens",
+    "upgrades": "Upgrades",
+    "levels": "Levels",
+    "items": "Items",
+    "locations": "Locations"
+  }
+}

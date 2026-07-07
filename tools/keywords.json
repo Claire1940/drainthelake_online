@@ -1,46 +1,67 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "Guide",
       "keywords": [
-        "lucid blocks guide"
+        "drain the lake guide",
+        "drain the lake beginner guide",
+        "drain the lake walkthrough",
+        "drain the lake progression guide",
+        "drain the lake tips",
+        "drain the lake fast progression"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "Codes",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "drain the lake codes"
+      ]
+    },
+    {
+      "category": "Tokens",
+      "keywords": [
+        "drain the lake tokens",
+        "drain the lake token farming",
+        "drain the lake fastest tokens",
+        "drain the lake chest locations",
+        "drain the lake rewards"
+      ]
+    },
+    {
+      "category": "Upgrades",
+      "keywords": [
+        "drain the lake upgrades",
+        "drain the lake skill tree",
+        "drain the lake best upgrades",
+        "drain the lake bucket upgrades",
+        "drain the lake backpack upgrades"
+      ]
+    },
+    {
+      "category": "Levels",
+      "keywords": [
+        "drain the lake lake levels",
+        "drain the lake deepest level",
+        "drain the lake areas",
+        "drain the lake unlock levels"
       ]
     },
     {
       "category": "Items",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "drain the lake items",
+        "drain the lake tools",
+        "drain the lake bucket",
+        "drain the lake equipment"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "Locations",
       "keywords": [
-        "lucid blocks tiamana leyline"
-      ]
-    },
-    {
-      "category": "Building",
-      "keywords": [
-        "lucid blocks qualia"
-      ]
-    },
-    {
-      "category": "Support",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "drain the lake cave",
+        "drain the lake secret cave",
+        "drain the lake hidden locations",
+        "drain the lake collectibles"
       ]
     }
   ]

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Drain the Lake Wiki - Codes, Upgrades & Endings",
+      "description": "Drain the Lake Wiki covers codes, bucket upgrades, the skill tree, drain cycles, tokens, endings, and tips for the Roblox game where you drain the lake to recover your lost phone.",
+      "keywords": "Drain the Lake, Drain the Lake wiki, Drain the Lake codes, bucket upgrades, skill tree, drain cycles, Roblox, tokens, endings",
+      "ogTitle": "Drain the Lake Wiki - Codes, Upgrades & Endings",
+      "ogDescription": "Drain the Lake Wiki covers codes, bucket upgrades, the skill tree, drain cycles, tokens, endings, and tips for the Roblox game where you drain the lake to recover your lost phone.",
+      "twitterTitle": "Drain the Lake Wiki - Codes, Upgrades & Endings",
+      "twitterDescription": "Drain the Lake Wiki covers codes, bucket upgrades, drain cycles, tokens, endings, and tips for the Roblox lake-draining simulator."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Lake-Draining Simulator",
+    "title": "Drain the Lake Wiki",
+    "description": "Fill your bucket, drain the lake, earn tokens, and upgrade your Skill Tree to dive deeper and recover your lost phone in Drain the Lake on Roblox.",
+    "getFreeCodesCTA": "Read Beginner Guide",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "14.7K",
+        "label": "Active Players"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "7M+",
+        "label": "Total Visits"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "94%",
+        "label": "Like Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
+        "value": "Jun 3, 2026",
         "label": "Release Date"
       }
     }
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Drain the Lake?",
+    "description": "Jump into Drain the Lake on Roblox and use our guides to upgrade your bucket, plan tokens, and recover your phone fast!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "View Game Stats"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Drain the Lake Wiki",
+    "description": "Your complete resource hub for Drain the Lake codes, bucket upgrades, skill tree, drain cycles, tokens, endings, and Roblox tips.",
     "resources": "Resources",
-    "community": "Community",
+    "community": "Game",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Play on Roblox",
+    "twitter": "Game Statistics",
+    "steamCommunity": "Beginner Tips",
+    "steamStore": "Full Walkthrough",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Drain the Lake Wiki. Not affiliated with the developers of Drain the Lake or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

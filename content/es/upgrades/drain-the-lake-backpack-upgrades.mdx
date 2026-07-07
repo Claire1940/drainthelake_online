@@ -1,0 +1,150 @@
+import { Map, Trophy, Target, Shield, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejoras de mochila en Drain the Lake: Diseño rápido para farmear fichas",
+  description: "Domina las mejoras de mochila y estadísticas de capacidad del cubo en Drain the Lake. Conoce el mejor diseño del árbol de habilidades, rutas de farmeo de fichas y rutas de progresión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Backpack+Upgrades+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Drain the Lake"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: Mejorar la capacidad de tu cubo (el equivalente a la mochila) es el factor más importante para reducir los tiempos de trayecto.
+- **Prioridad del árbol de habilidades**: Concéntrate en la **capacidad del cubo** (Bucket Capacity) y la **eficiencia de recolección** (Collection Efficiency) antes de invertir en nodos de exploración de aguas profundas.
+- **Estrategia de farmeo**: Mantén tus rutas cortas entre la fuente de agua y la tubería de drenaje para maximizar las fichas por minuto.
+- **Objetivo de progresión**: Equilibra tu capacidad de carga con tu velocidad de extracción para asegurarte de no perder tiempo esperando animaciones.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el sistema de capacidad de carga">
+
+En **Drain the Lake**, tu cubo actúa como tu inventario y mochila principal. A diferencia de los simuladores tradicionales de Roblox donde compras mochilas físicas separadas, tu capacidad de carga está directamente ligada a las mejoras de **capacidad del cubo** (Bucket Capacity) dentro del árbol de habilidades centralizado. 
+
+Maximizar esta capacidad es crucial porque dicta directamente cuánto tiempo puedes recolectar agua antes de tener que volver al punto de drenaje. Un cubo más grande significa menos viajes, lo que aumenta exponencialmente tu eficiencia de generación de fichas con el tiempo.
+
+| Nivel de mejora | Capacidad (litros) | Coste de fichas | Clasificación de eficiencia |
+|---|---|---|---|
+| **Nivel 1-5 (Inicio)** | 10 - 50 | 100 - 1.200 | ★★★★★ (Esencial) |
+| **Nivel 6-10 (Medio)** | 75 - 200 | 2.500 - 12.000 | ★★★★☆ (Alto valor) |
+| **Nivel 11+ (Avanzado)** | 300+ | 25.000+ | ★★★☆☆ (Nicho/Juego tardío) |
+
+<Callout type="tip" title="Consejo profesional">
+Nunca ahorres para mejoras de capacidad extremadamente caras en el juego temprano. Equilibra siempre tus mejoras de capacidad con la velocidad de recolección para evitar cuellos de botella.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rutas óptimas de mejora del árbol de habilidades">
+
+La progresión en Drain the Lake se basa en una estructura de mejoras ordenada. Para optimizar tus **mejoras de mochila en Drain the Lake** y la velocidad de progresión general, debes asignar tus fichas estratégicamente.
+
+<CardGrid cols={3}>
+  <Card title="Capacidad del cubo">
+    - **Reduce la frecuencia de viaje**
+    - Alta prioridad en el juego temprano
+    - Mantiene estables los ciclos de farmeo
+  </Card>
+  <Card title="Eficiencia de recolección">
+    - **Llena tu cubo más rápido**
+    - Evita quedarse inactivo
+    - Ideal al combinarlo con gran capacidad
+  </Card>
+  <Card title="Multiplicadores de fichas">
+    - **Aumenta el valor por drenaje**
+    - Multiplica tus ganancias
+    - Aumenta en el juego medio
+  </Card>
+</CardGrid>
+
+Al mejorar estas tres ramas principales en conjunto, te aseguras de que tu personaje nunca pase demasiado tiempo corriendo de un lado a otro con un cubo pequeño o esperando de pie para recoger agua.
+
+<Callout type="warning" title="Advertencia">
+No te apresures a ir a las zonas más profundas del lago si la capacidad de tu cubo es baja. La mayor distancia de viaje arruinará tu tasa de fichas por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para un farmeo rápido de fichas">
+
+Para desbloquear tus mejoras de manera eficiente, sigue esta rutina de farmeo paso a paso comprobada:
+
+<Steps>
+  <Step num="1" title="Optimiza tu ruta">
+    Localiza el camino físico más corto entre la orilla del lago y la tubería de drenaje central. Evita desvíos u obstáculos de parkour durante tus ciclos principales de farmeo.
+  </Step>
+  <Step num="2" title="Establece el ciclo de llenar y vaciar">
+    Equipa tu cubo, llénalo por completo y deposítalo de inmediato. Concéntrate estrictamente en ciclos repetitivos y rápidos para acumular tu base inicial de fichas.
+  </Step>
+  <Step num="3" title="Reinvierte fichas de inmediato">
+    No acumules fichas. Cada vez que juntes lo suficiente para una mejora de capacidad del cubo o de velocidad de recolección, cómprala de inmediato para acelerar tu progreso.
+  </Step>
+  <Step num="4" title="Adéntrate en las profundidades de forma segura">
+    Una vez que la capacidad de tu cubo alcance al menos 150 litros, comienza a aventurarte en zonas más profundas para descubrir cofres y objetos de progresión de alto valor.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de progresión">
+
+Lleva un registro de tus hitos de progresión a medida que avanzas para vaciar todo el lago y recuperar tu teléfono perdido.
+
+<Checklist
+  id="lake-drain-goals"
+  title="Hitos clave a alcanzar:"
+  items={[
+    "Alcanzar 100 litros de capacidad en el cubo",
+    "Desbloquear el nivel 5 de eficiencia de recolección",
+    "Descubrir el primer cofre del tesoro en aguas profundas",
+    "Automatizar los nodos de extracción del juego temprano",
+    "Localizar el teléfono perdido en el fondo del lago"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de eficiencia de farmeo">
+
+Los diferentes estilos de juego generan diferentes tasas de fichas. Revisa esta comparación para decidir si jugar activamente o hacer la transición a una configuración inactiva (idle).
+
+| Estilo de juego | Farmeo activo | Farmeo híbrido | Inactivo/Automatización |
+|---|---|---|---|
+| **Tasa de fichas** | Muy alta | Alta | Constante/Pasiva |
+| **Nivel de esfuerzo** | Alto | Medio | Bajo |
+| **Mejores mejoras** | Velocidad y capacidad | Capacidad y multiplicadores | Nodos de automatización |
+| **Enfoque** | Caza de cofres | Ciclos equilibrados | Ingresos pasivos |
+
+<Callout type="success" title="Consejo para el éxito">
+Se recomienda encarecidamente el farmeo activo durante tu primera hora de juego. Haz la transición a nodos de automatización aptos para el juego inactivo en el árbol de habilidades una vez que los costes de mejora superen las 10.000 fichas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo las mejoras de mochila en Drain the Lake?",
+    answer: "Las mejoras de mochila se compran directamente como opciones de 'Capacidad del cubo' (Bucket Capacity) dentro del ordenador del árbol de habilidades central usando las fichas obtenidas al extraer agua."
+  },
+  {
+    question: "¿Debería centrarme primero en la capacidad o en la velocidad de recolección?",
+    answer: "Mantén un equilibrio. Tener un cubo enorme no sirve de nada si tarda demasiado en llenarse, y llenar un cubo diminuto al instante se traduce en demasiados viajes de ida y vuelta."
+  },
+  {
+    question: "¿Hay códigos activos para conseguir fichas gratis?",
+    answer: "Actualmente no hay códigos de canje públicos verificados disponibles para Drain the Lake. Toda la progresión debe ganarse a través del juego."
+  },
+  {
+    question: "¿Cuándo es seguro explorar las secciones más profundas del lago?",
+    answer: "Se recomienda explorar zonas más profundas solo después de que la capacidad de tu cubo sea lo suficientemente grande como para que valga la pena la larga caminata de regreso a la tubería de drenaje."
+  }
+]} />
+
+</Section>

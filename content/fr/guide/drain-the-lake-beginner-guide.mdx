@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide du débutant drain the lake : Progression et Ferme de Jetons",
+  description: "Apprenez la boucle de gameplay principale, optimisez vos améliorations d'arbre de compétences et fermez des jetons efficacement avec ce guide complet pour débutants drain the lake.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Beginner+Guide",
+  date: "2026-07-07",
+  author: "Équipe Wiki drain the lake",
+  keywords: "drain the lake, guide débutant, progression, ferme de jetons, roblox"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Boucle Principale** : Complétez la boucle de base en utilisant ce **guide du débutant drain the lake** pour fermer des jetons efficacement.
+- **Priorité d'Amélioration** : Priorisez la **Capacité du Seau** au début pour minimiser le temps de trajet entre l'eau et les drains.
+- **Règle de Progression** : Ne passez aux **niveaux de lac plus profonds** que lorsque votre configuration actuelle fonctionne confortablement.
+- **Ferme de Jetons** : Concentrez-vous sur des **itinéraires courts** au lieu de faire de longs détours pour une efficacité maximale.
+</Callout>
+
+<Section icon={Sparkles} title="Boucle de Gameplay Principale et Mécanismes">
+
+Drain the Lake est une expérience incrémentale sur Roblox où votre objectif principal est de récupérer un téléphone perdu reposant au fond d'un lac profond. Pour y parvenir, vous devez systématiquement vider le lac de son eau, gagner des jetons, améliorer votre équipement et débloquer des zones plus profondes. Le gameplay repose largement sur la répétition d'une boucle hautement optimisée consistant à collecter de l'eau, la vider et dépenser la monnaie dans des améliorations permanentes.
+
+Comprendre les mécanismes de collecte d'eau est crucial pour réussir dès le début. Lorsque vous commencez le jeu, vous êtes équipé d'un seau de base ayant une capacité limitée. Marcher vers la source d'eau remplit automatiquement votre seau. Une fois plein, vous devez retourner au point de vidage central pour y déposer l'eau. Vider l'eau la convertit directement en jetons, qui sont utilisés pour débloquer des nœuds dans votre arbre de compétences.
+
+<Callout type="warning" title="Piège de Progression">
+N'essayez pas d'explorer les zones profondes immédiatement. Parcourir de longues distances avec un seau de faible capacité diminue considérablement votre efficacité de jetons par minute.
+</Callout>
+
+Pour vous aider à visualiser la structure de base de la boucle, consultez le tableau ci-dessous détaillant chaque phase de la boucle de gameplay principale et sa métrique primaire.
+
+|Phase|Action|Récompense Principale|Métrique Clé|
+|---|---|---|---|
+|**Collecte**|Remplir le seau à la source|Volume d'eau|Vitesse de remplissage|
+|**Vidage**|Vider le seau au drain|**Jetons**|Efficacité de vidage|
+|**Amélioration**|Dépenser des jetons|Bonus permanents|Coût en jetons|
+|**Exploration**|Descendre plus profondément|Nouvelles zones|Profondeur atteinte|
+
+Chaque cycle de cette boucle augmente votre capacité à gérer des volumes d'eau plus importants. À mesure que vous gagnez plus de jetons, la distance que vous pouvez parcourir augmente, vous permettant de vous aventurer plus profondément dans le lit du lac sans sacrifier votre potentiel de gain.
+
+</Section>
+
+<Section icon={Trophy} title="Priorités d'Amélioration de l'Arbre de Compétences">
+
+L'arbre de compétences est le fondement de la progression à long terme dans le jeu. Dépenser vos jetons au hasard ralentira votre progression. Au lieu de cela, vous devez vous concentrer sur l'amélioration de branches spécifiques qui réduisent directement le temps nécessaire pour effectuer un cycle complet. L'arbre est divisé en capacité, vitesse de collecte, multiplicateurs de jetons et accès à la profondeur.
+
+Pour maximiser votre efficacité, vous devriez prioriser les améliorations qui résolvent vos goulots d'étranglement immédiats. Par exemple, si vous passez plus de temps à marcher qu'à remplir, votre capacité est trop faible. Inversement, si vous remplissez votre seau instantanément mais gagnez très peu de jetons, vous devez investir dans l'efficacité des jetons.
+
+<Callout type="tip" title="Stratégie d'Amélioration">
+Priorisez toujours la Capacité du Seau sur l'Efficacité de Collecte en début de jeu. Transporter plus d'eau par trajet est plus précieux que de remplir un minuscule seau plus rapidement.
+</Callout>
+
+Voici une répartition des principales voies d'amélioration disponibles dans l'arbre de compétences :
+
+<CardGrid cols={2}>
+  <Card title="Capacité du Seau">
+    - **Réduit la fréquence des trajets**
+    - Augmente la charge d'eau maximale
+    - Essentiel pour l'exploration profonde
+  </Card>
+  <Card title="Efficacité de Collecte">
+    - **Accélère la collecte d'eau**
+    - Réduit le temps passé à la source
+    - Idéal en combinaison avec de grands seaux
+  </Card>
+  <Card title="Efficacité des Jetons">
+    - **Multiplie les revenus de jetons**
+    - Augmente la valeur par unité d'eau
+    - Accélère la progression en milieu de jeu
+  </Card>
+  <Card title="Progression en Profondeur">
+    - **Débloque des zones plus profondes**
+    - Donne accès à de nouvelles sources d'eau
+    - Requis pour atteindre le téléphone perdu
+  </Card>
+</CardGrid>
+
+Pour planifier vos investissements dans l'arbre de compétences, reportez-vous à la matrice de priorité ci-dessous, qui classe chaque catégorie d'amélioration en fonction de son impact global sur la progression.
+
+|Nom de la Compétence|Priorité|Meilleure Étape|Impact|
+|---|---|---|---|
+|**Capacité du Seau**|★★★★★|Début de jeu|Réduit la fréquence des trajets|
+|**Efficacité de Collecte**|★★★★☆|Début/Milieu|Accélère la collecte d'eau|
+|**Efficacité des Jetons**|★★★★★|Milieu de jeu|Augmente le rendement par vidage|
+|**Progression Profondeur**|★★★☆☆|Fin de jeu|Débloque l'exploration profonde|
+
+En structurant vos améliorations selon cette matrice, vous vous assurez que chaque jeton dépensé se traduit directement par des temps de parcours plus rapides et des rendements plus élevés.
+
+</Section>
+
+<Section icon={Map} title="Guide de Progression Étape par Étape">
+
+Naviguer de votre tout premier seau jusqu'aux profondeurs les plus basses du lac nécessite une approche structurée. Se précipiter sans les améliorations appropriées entraînera une progression lente et une perte de temps. Suivez ce chemin de progression étape par étape pour atteindre le fond du lac efficacement.
+
+<Steps>
+  <Step num="1" title="Établir la Boucle de Base">
+    Commencez par collecter de l'eau dans la partie la moins profonde du lac. Restez près du point de vidage pour minimiser le temps de trajet. Répétez ce processus jusqu'à avoir rassemblé assez de jetons pour acheter vos trois premières améliorations dans l'arbre de compétences.
+  </Step>
+  <Step num="2" title="Maximiser Votre Capacité">
+    Concentrez tous vos jetons initiaux sur l'amélioration de la capacité de votre seau. Ne vous éloignez pas de la zone de départ tant que votre seau ne peut pas contenir au moins cinq fois son volume initial. Cela vous assure de faire moins de trajets vers le drain.
+  </Step>
+  <Step num="3" title="Débloquer les Zones Intermédiaires">
+    Une fois que votre capacité et votre efficacité de jetons sont équilibrées, commencez à pousser vers la zone intermédiaire du lac. Les sources d'eau ici rapportent plus de jetons par vidage, mais elles nécessitent des temps de trajet plus longs. Ajustez votre itinéraire pour éviter les obstacles.
+  </Step>
+  <Step num="4" title="Optimiser pour l'Abysse">
+    Avant d'entrer dans la partie la plus profonde du lac, maximisez vos améliorations d'efficacité de jetons. Vous aurez besoin d'une réserve massive de jetons pour débloquer les exigences finales de profondeur et récupérer le téléphone perdu en toute sécurité.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Objectif de Jalon">
+Atteindre une capacité de 10 unités marque la transition du début de jeu vers le milieu de jeu. À ce stade, votre taux de génération de jetons doublera.
+</Callout>
+
+Pour aider à suivre votre progression, consultez le tableau des jalons de progression ci-dessous, qui détaille les améliorations recommandées et les objectifs de jetons pour chaque étape du jeu.
+
+|Jalon|Améliorations Cibles|Objectif Jetons|Récompense Clé|
+|---|---|---|---|
+|**Premier Vidage**|Seau de base|10 Jetons|Premier Point de Compétence|
+|**Milieu du Lac**|Capacité Niveau 5|500 Jetons|Accès à la Zone 2|
+|**Lac Profond**|Capacité Niveau 10|2 500 Jetons|Accès à la Zone 3|
+|**L'Abysse**|Capacité Max & Boost Jetons|10 000 Jetons|**Récupération du Téléphone Perdu**|
+
+Utilisez ces jalons comme une liste de contrôle pour évaluer si votre personnage est prêt à passer à la zone suivante.
+
+</Section>
+
+<Section icon={Target} title="Optimisation de la Ferme de Jetons">
+
+Fermer des jetons efficacement est la clé pour terminer le jeu rapidement. La vitesse à laquelle vous gagnez des jetons est déterminée par votre sélection d'itinéraire, votre vitesse de déplacement et la capacité de votre seau. Les joueurs expérimentés conçoivent des itinéraires de ferme spécifiques qui minimisent les temps d'arrêt et maximisent le volume d'eau livré au drain par minute.
+
+Lors de la ferme, cherchez toujours le chemin le plus court entre le bord de l'eau et le drain. Évitez de faire des détours ou de sauter par-dessus des obstacles inutiles, car ces actions font perdre de précieuses secondes. Sur de longues sessions de jeu, économiser ne serait-ce que deux secondes par trajet peut se traduire par des milliers de jetons supplémentaires.
+
+<Callout type="info" title="Conseil de Ferme">
+Si une nouvelle zone est trop éloignée, il est souvent plus efficace de fermer la zone précédente plus rapidement jusqu'à ce que vous puissiez vous offrir une amélioration de vitesse de déplacement ou de capacité.
+</Callout>
+
+Pour comparer l'efficacité des différents itinéraires de ferme, examinez les données ci-dessous.
+
+|Type de Route|Distance de Trajet|Temps de Boucle Moyen|Ratio de Rendement Jetons|
+|---|---|---|---|
+|**Route Courte**|Courte|**Rapide**|Haute efficacité|
+|**Route Moyenne**|Moyenne|Modéré|Rendement équilibré|
+|**Route Profonde**|Longue|Lent|Faible sans améliorations|
+
+Comme le montre le tableau, la route courte reste le choix le plus efficace jusqu'à ce que votre capacité soit assez élevée pour justifier les longs temps de trajet de la route profonde.
+
+</Section>
+
+<Section icon={Shield} title="Liste de Contrôle Essentielle et Conseils">
+
+Pour vous assurer de progresser à un rythme optimal, surveillez de près votre chemin d'amélioration et vos habitudes de ferme. De petites erreurs de stratégie peuvent mener à un broyage inutile. Utilisez la liste de contrôle ci-dessous pour rester sur la bonne voie.
+
+<Callout type="warning" title="Vérification d'Efficacité">
+Calculez régulièrement vos jetons gagnés par minute. Si vos gains chutent après avoir emménagé dans une zone plus profonde, retournez immédiatement à la zone précédente.
+</Callout>
+
+<Checklist
+  id="beginner-progression-goals"
+  title="Objectifs de Progression Débutant :"
+  items={[
+    "Améliorer la Capacité du Seau au Niveau 5 avant d'explorer des zones plus profondes",
+    "Investir dans l'Efficacité des Jetons pour multiplier vos gains par cycle",
+    "Établir un itinéraire de ferme court et sans obstacles près du drain",
+    "Éviter d'économiser des jetons pour des améliorations coûteuses de fin de jeu trop tôt",
+    "Vérifier que votre vitesse de collecte correspond à vos améliorations de capacité"
+  ]}
+/>
+
+Respecter ces objectifs permettra de maintenir une progression fluide et vous empêchera de frapper un mur dans les zones de milieu de jeu.
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+Cette section répond aux questions les plus courantes que les joueurs se posent en commençant leur aventure pour vider le lac.
+
+<Callout type="tip" title="Aide de la Communauté">
+Si vous êtes bloqué, consultez la description de la page officielle du jeu Roblox pour obtenir des informations sur les récents changements d'équilibrage et les ajustements de gameplay.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quel est l'objectif principal de ce guide du débutant drain the lake ?",
+    answer: "Ce guide est conçu pour aider les joueurs à optimiser leur progression en début de jeu, à comprendre la boucle principale de vidage d'eau et à identifier les voies d'amélioration les plus efficaces dans l'arbre de compétences."
+  },
+  {
+    question: "Quelle amélioration de l'arbre de compétences devrais-je acheter en premier ?",
+    answer: "Vous devriez toujours prioriser la Capacité du Seau en premier. Augmenter la quantité d'eau que vous pouvez transporter réduit le nombre de trajets nécessaires vers le drain, ce qui est le plus gros goulot d'étranglement au début du jeu."
+  },
+  {
+    question: "Quel est le meilleur moment pour passer à une zone plus profonde ?",
+    answer: "Passez à une zone plus profonde uniquement lorsque la capacité de votre seau et votre vitesse de déplacement vous permettent de parcourir la distance plus longue sans réduire considérablement votre taux de gain global de jetons par minute."
+  },
+  {
+    question: "Y a-t-il des codes d'échange actifs disponibles ?",
+    answer: "Il n'y a actuellement aucun code d'échange public vérifié disponible pour Drain the Lake. La progression dépend entièrement de l'accomplissement de la boucle de gameplay et de l'amélioration de votre arbre de compétences."
+  }
+]} />
+
+</Section>

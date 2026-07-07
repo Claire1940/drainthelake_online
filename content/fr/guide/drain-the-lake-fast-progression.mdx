@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Progression rapide dans Drain the Lake : Améliorations efficaces et Guide de profondeur",
+  description: "Maîtrisez la progression rapide dans Drain the Lake grâce à notre guide 2026. Découvrez les meilleures configurations de l'Arbre de compétences, les routes de farm de jetons et comment récupérer rapidement votre téléphone.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Fast+Progression+Guide",
+  date: "2026-07-07",
+  author: "Équipe du Wiki de drain the lake"
+}
+
+<Callout type="info" title="Guide rapide">
+- La **progression rapide dans drain the lake** repose sur l'équilibre entre la capacité du seau et la vitesse de collecte afin de minimiser les temps d'arrêt.
+- **Améliorations prioritaires** : Concentrez-vous sur l'Efficacité des jetons et la Capacité du seau durant les 30 premières minutes de jeu.
+- **Stratégie de base** : Identifiez toujours votre goulot d'étranglement actuel (temps de trajet ou vitesse de remplissage) et améliorez vos compétences en conséquence.
+- **Objectif ultime** : Atteindre le fond du lac pour récupérer le Téléphone perdu en vous enfonçant constamment dans les zones plus profondes.
+- **Astuce d'efficacité** : Des trajets plus courts et fréquents sont souvent bien meilleurs que de longs voyages pénibles lorsque votre capacité est faible.
+</Callout>
+
+<Section icon={Map} title="Maîtriser la boucle de gameplay principale">
+
+Pour réussir une **progression rapide dans drain the lake**, vous devez d'abord maîtriser le rythme fondamental du jeu. Contrairement aux simulateurs traditionnels qui récompensent le jeu inactif, Drain the Lake est une expérience incrémentale qui exige une optimisation active. La boucle de jeu est d'une simplicité trompeuse : collecter de l'eau, la vider pour obtenir des jetons, et réinvestir ces jetons dans votre Arbre de compétences. Cependant, la vitesse à laquelle vous exécutez cette boucle détermine la rapidité avec laquelle vous atteindrez l'objectif final.
+
+<Callout type="tip" title="Secret d'optimisation">
+Les joueurs les plus efficaces ne se contentent pas de « farmer » ; ils analysent les secondes passées par jeton gagné. Si vous passez plus de 20 secondes à marcher vers un point de vidange, vous perdez probablement en efficacité par rapport à un itinéraire plus court.
+</Callout>
+
+La progression est divisée en phases distinctes, chacune nécessitant un changement de stratégie. En début de partie, votre outil principal est un seau de base à capacité limitée. Votre but est de générer assez de jetons pour briser la « lenteur » initiale du processus de collecte. À mesure que vous progressez, la distance entre la source d'eau et le point de vidange augmente, ce qui rend la vitesse de déplacement et la capacité bien plus précieuses que la simple puissance de collecte brute.
+
+| Phase de progression | Objectif principal | Devise prioritaire | Goulot d'étranglement typique |
+| :--- | :--- | :--- | :--- |
+| **Début de partie** | Établir la boucle de base | Génération de jetons | Faible capacité du seau |
+| **Milieu de partie** | Débloquer des zones plus profondes | Progression de l'Arbre de compétences | Distance de trajet |
+| **Fin de partie** | Récupérer le Téléphone perdu | Maximiser l'efficacité | Coûts d'amélioration élevés |
+| **Endgame** | Complétion | Chasse aux succès | Exigences de profondeur |
+
+</Section>
+
+<Section icon={Zap} title="Priorités d'amélioration de l'Arbre de compétences pour la vitesse">
+
+L'Arbre de compétences est le moteur d'une **progression rapide dans drain the lake**. Sans une approche structurée de vos améliorations, vous vous retrouverez bloqué dans un cycle répétitif aux rendements décroissants. L'Arbre de compétences vous permet de personnaliser les performances de votre personnage, mais tous les nœuds ne se valent pas. Certains apportent des améliorations immédiates de « confort de jeu », tandis que d'autres offrent une croissance exponentielle à long terme.
+
+<CardGrid cols={2}>
+  <Card title="Capacité du seau">
+    - **Fonction** : Augmente le volume d'eau maximal
+    - **Idéal pour** : Réduire la fréquence des trajets
+    - **Priorité** : Élevée (Début à Milieu de partie)
+  </Card>
+  <Card title="Efficacité de collecte">
+    - **Fonction** : Accélère le processus de remplissage
+    - **Idéal pour** : Un farm plus rapide dans les zones peu profondes
+    - **Priorité** : Moyenne (Début de partie)
+  </Card>
+  <Card title="Efficacité des jetons">
+    - **Fonction** : Multiplie les jetons par vidange
+    - **Idéal pour** : La progression à long terme
+    - **Priorité** : Essentielle (Toutes les étapes)
+  </Card>
+  <Card title="Progression en profondeur">
+    - **Fonction** : Permet l'exploration plus profonde
+    - **Idéal pour** : Atteindre l'objectif final
+    - **Priorité** : Élevée (Fin de partie)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erreur fréquente">
+N'accumulez pas vos jetons pour des améliorations coûteuses de fin de partie alors que vos outils de début de partie sont encore faibles. Il vaut mieux avoir cinq améliorations de niveau 2 qu'une seule de niveau 5 si les niveaux inférieurs améliorent considérablement votre boucle de farm actuelle.
+</Callout>
+
+Lorsque vous décidez où investir, suivez la « Règle du goulot d'étranglement ». Si vous restez trop longtemps immobile à la source d'eau, améliorez l'Efficacité de collecte. Si vous devez courir au point de vidange toutes les cinq secondes, améliorez la Capacité du seau. Si les récompenses vous semblent trop faibles pour l'effort fourni, ciblez l'Efficacité des jetons.
+
+| Type d'amélioration | Évolution du coût | Niveau d'impact | Niveau recommandé |
+| :--- | :--- | :--- | :--- |
+| **Multiplicateur de jetons** | Exponentiel | ★★★★★ | Améliorer toutes les 2-3 sessions |
+| **Capacité** | Linéaire | ★★★★☆ | Améliorer quand les trajets semblent trop fréquents |
+| **Vitesse de remplissage** | Décroissante | ★★★☆☆ | Maintenir à 50 % du niveau de Capacité |
+| **Vitesse de déplacement** | Élevée | ★★★★☆ | Essentiel pour les trajets en eau profonde |
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour votre première session">
+
+Commencer votre aventure dans Drain the Lake peut sembler lent, mais suivre un chemin spécifique vous évitera de perdre du temps sur des itinéraires inefficaces. Suivez ces étapes pour lancer votre **progression rapide dans drain the lake** et atteindre le milieu de partie dès votre première heure de jeu.
+
+<Steps>
+  <Step num="1" title="Le farm initial">
+    Commencez par remplir votre seau à la source d'eau la plus proche. Ne vous éloignez pas ; restez aussi près que possible du point de vidange. Effectuez 5 à 10 trajets rapides pour obtenir vos premiers jetons.
+  </Step>
+  <Step num="2" title="Premier investissement de l'Arbre de compétences">
+    Dépensez vos premiers jetons dans l'**Efficacité des jetons**. Cela garantit que chaque trajet suivant sera plus rentable que le précédent. Évitez la tentation d'acheter de la capacité en premier, car votre distance de trajet est actuellement très courte.
+  </Step>
+  <Step num="3" title="Équilibrer la capacité">
+    Une fois que vos jetons par trajet ont doublé, investissez dans la **Capacité du seau**. Cela vous permet de rester plus longtemps à la source d'eau et réduit le temps de transition entre le lac et le point de vidange.
+  </Step>
+  <Step num="4" title="Viser la profondeur">
+    À mesure que les niveaux d'eau peu profonde s'épuisent, vous devrez vous déplacer plus en profondeur. Avant de le faire, assurez-vous que vos compétences de **Vitesse de déplacement** ou de **Soutien en profondeur** sont activées pour éviter que l'augmentation du temps de trajet ne fasse chuter votre taux de jetons par heure.
+  </Step>
+  <Step num="5" title="L'audit d'efficacité">
+    Toutes les 15 minutes, arrêtez-vous et observez votre personnage. Passez-vous plus de temps à marcher ou à remplir votre seau ? Ajustez vos trois prochaines améliorations pour corriger la partie de la boucle qui est actuellement la plus lente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Palier atteint">
+En complétant avec succès ces étapes, vous vous placerez généralement dans le top 20 % des joueurs actifs en termes d'efficacité par session. La régularité est la clé pour vider entièrement le lac.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Efficacité du farm de jetons et itinéraires">
+
+Farmer des jetons efficacement est le seul moyen de soutenir une **progression rapide dans drain the lake** à mesure que les coûts d'amélioration grimpent par milliers. La configuration du lac est conçue pour vous tenter d'aller dans des zones plus profondes et « de plus grande valeur », mais ces zones cachent un coût : le temps de trajet. Un trajet en eau profonde qui rapporte 100 jetons mais prend 60 secondes est objectivement moins rentable qu'un trajet en eau peu profonde qui donne 30 jetons mais ne prend que 10 secondes.
+
+| Type d'itinéraire | Temps moyen | Rendement en jetons | Note d'efficacité |
+| :--- | :--- | :--- | :--- |
+| **Rive peu profonde** | 8s | Faible | 9/10 (Début de partie) |
+| **Plateau intermédiaire** | 25s | Moyen | 7/10 (Équilibré) |
+| **Fosse profonde** | 55s | Élevé | 6/10 (Fin de partie uniquement) |
+| **Sprint optimisé** | 15s | Moyen-Élevé | 10/10 (Expert) |
+
+<Callout type="info" title="Stratégie d'expert">
+Utilisez la géographie du lac à votre avantage. Recherchez les zones de rupture de pente où l'eau est profonde mais relativement proche du point de vidange de la rive. Ces « zones idéales » sont le secret d'une accumulation rapide de jetons.
+</Callout>
+
+Pour maintenir une efficacité maximale, vous devriez périodiquement calculer vos **Jetons Par Minute (JPM)**. 
+1. Lancez un chronomètre de 60 secondes.
+2. Effectuez votre boucle habituelle aussi vite que possible.
+3. Notez les jetons gagnés.
+4. Essayez un autre itinéraire ou une autre priorité d'amélioration, puis recommencez.
+5. Conservez la méthode qui génère le JPM le plus élevé, peu importe à quel point l'itinéraire vous semble « excitant ».
+
+</Section>
+
+<Section icon={Shield} title="Check-list de progression avancée">
+
+À mesure que vous approchez des sections les plus profondes du lac, le jeu devient un test d'endurance et de gestion des ressources. Utilisez cette check-list pour vous assurer que vous êtes prêt pour l'assaut final vers le Téléphone perdu.
+
+<Checklist
+  id="late-game-prep"
+  title="Objectifs de préparation pour la fin de partie :"
+  items={[
+    "Atteindre le niveau 10 en Efficacité des jetons",
+    "Débloquer l'amélioration du seau de palier intermédiaire",
+    "Identifier le chemin le plus court vers la marque des 50 mètres de profondeur",
+    "Maximiser la vitesse de déplacement pour contrer la résistance de l'eau profonde",
+    "Accumuler une réserve de jetons pour les nœuds coûteux de fin de partie"
+  ]}
+/>
+
+<Callout type="warning" title="Danger en profondeur">
+S'aventurer dans les parties les plus profondes du lac sans améliorations suffisantes peut mener à un « blocage de progression », où le temps nécessaire pour ramener l'eau est si long que votre croissance s'arrête. Préparez-vous toujours minutieusement avant de plonger en profondeur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+Pour vous aider encore plus dans votre **progression rapide dans drain the lake**, nous avons rassemblé les questions les plus fréquemment posées par la communauté concernant les mécaniques et l'efficacité.
+
+<FAQ items={[
+  {
+    question: "Quel est le moyen le plus rapide d'obtenir des jetons dans Drain the Lake ?",
+    answer: "Le moyen le plus rapide est de prioriser l'« Efficacité des jetons » dans l'Arbre de compétences et de s'en tenir à des itinéraires de courte distance. Les trajets fréquents en eau peu profonde rapportent souvent plus de jetons par minute que les trajets longue distance en eau profonde, jusqu'à ce que votre vitesse de déplacement soit au maximum."
+  },
+  {
+    question: "Quand dois-je améliorer la capacité de mon seau ?",
+    answer: "Améliorez la capacité de votre seau chaque fois que le temps passé à le remplir est nettement plus court que le temps passé à marcher vers le point de vidange. Vous voulez que votre temps de « travail » soit à peu près égal ou supérieur à votre temps de « trajet »."
+  },
+  {
+    question: "Y a-t-il des codes actifs pour Drain the Lake en 2026 ?",
+    answer: "Actuellement, il n'y a aucun code d'échange public vérifié disponible pour Drain the Lake. La progression est entièrement basée sur le gameplay et l'utilisation efficace du système d'Arbre de compétences."
+  },
+  {
+    question: "Comment trouver le Téléphone perdu ?",
+    answer: "Le Téléphone perdu se trouve au point le plus profond du lac. Pour l'atteindre, vous devez constamment améliorer votre « Progression en profondeur » et votre « Vitesse de déplacement » afin de survivre au trajet aller-retour avec un seau plein."
+  }
+]} />
+
+<Callout type="success" title="Dernier conseil">
+Rappelez-vous que Drain the Lake est un marathon, pas un sprint — même si nous essayons de le sprinter. Restez concentré sur votre Arbre de compétences, surveillez votre JPM, et vous récupérerez ce téléphone en un rien de temps !
+</Callout>
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Progresión rápida en Drain the Lake: Rutas de mejora eficientes y guía de profundidad",
+  description: "Domina la progresión rápida en Drain the Lake con nuestra guía de 2026. Aprende las configuraciones óptimas del Árbol de Habilidades, rutas de farmeo de fichas y cómo recuperar tu teléfono rápidamente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Fast+Progression+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de drain the lake",
+  keywords: "drain the lake, progresión rápida, guía de mejora, árbol de habilidades, fichas, recuperar teléfono"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **progresión rápida en drain the lake** consiste en equilibrar la capacidad del cubo con la velocidad de recolección para minimizar el tiempo de inactividad.
+- **Mejoras prioritarias**: Concéntrate en la Eficiencia de Fichas (Token Efficiency) y la Capacidad del Cubo (Bucket Capacity) durante los primeros 30 minutos de juego.
+- **Estrategia principal**: Identifica siempre tu cuello de botella actual (ya sea el tiempo de viaje o la velocidad de llenado) y mejora en consecuencia.
+- **Objetivo final**: Llega al fondo del lago para recuperar el Teléfono Perdido (Lost Phone) avanzando de manera constante hacia las secciones más profundas.
+- **Consejo de eficiencia**: Los viajes cortos y frecuentes suelen ser muy superiores a los trayectos largos y difíciles cuando tu capacidad es baja.
+</Callout>
+
+<Section icon={Map} title="Dominando el bucle de juego principal">
+
+Para lograr una **progresión rápida en drain the lake**, primero debes dominar el ritmo fundamental del juego. A diferencia de los simuladores tradicionales que recompensan el juego inactivo, Drain the Lake es una experiencia incremental que exige una optimización activa. El bucle de juego es engañosamente simple: recolectar agua, drenarla para obtener fichas y reinvertir esas fichas en tu Árbol de Habilidades. Sin embargo, la velocidad a la que ejecutes este bucle determinará qué tan rápido alcanzarás el objetivo final.
+
+<Callout type="tip" title="Secreto de Optimización">
+Los jugadores más eficientes no se limitan a \"farmear\" sin pensar; analizan los segundos invertidos por cada ficha ganada. Si pasas más de 20 segundos caminando hacia un punto de drenaje, es muy probable que estés perdiendo eficiencia en comparación con una ruta más corta.
+</Callout>
+
+La progresión se divide en fases distintas, cada una de las cuales requiere un cambio de estrategia. En la fase inicial del juego, tu herramienta principal es un cubo básico con capacidad limitada. Tu objetivo es generar suficientes fichas para romper la \"lentitud\" inicial del proceso de recolección. A medida que avanzas, la distancia entre la fuente de agua y el punto de drenaje aumenta, lo que hace que la velocidad de movimiento y la capacidad sean mucho más valiosas que la potencia de recolección pura.
+
+| Fase de Progresión | Objetivo Principal | Enfoque de Moneda Clave | Cuello de Botella Típico |
+| :--- | :--- | :--- | :--- |
+| **Juego Temprano** | Establecer el bucle básico | Generación de fichas | Baja capacidad del cubo |
+| **Juego Medio** | Desbloquear áreas profundas | Escalar el Árbol de Habilidades | Distancia de viaje |
+| **Juego Tardío** | Recuperar el Teléfono Perdido | Maximizar la eficiencia | Altos costes de mejora |
+| **Fin del Juego** | Completar el juego | Caza de logros | Requisitos de profundidad |
+
+</Section>
+
+<Section icon={Zap} title="Prioridades de mejora del Árbol de Habilidades para ganar velocidad">
+
+El Árbol de Habilidades es el motor que impulsa la **progresión rápida en drain the lake**. Sin un enfoque estructurado para tus mejoras, te encontrarás atrapado en un ciclo repetitivo con rendimientos decrecientes. El Árbol de Habilidades te permite personalizar el rendimiento de tu personaje, pero no todos los nodos son iguales. Algunos proporcionan mejoras inmediatas para la calidad de vida, mientras que otros ofrecen un crecimiento exponencial a largo plazo.
+
+<CardGrid cols={2}>
+  <Card title="Capacidad del Cubo">
+    - **Función**: Aumenta el volumen máximo de agua
+    - **Ideal para**: Reducir la frecuencia de los viajes
+    - **Prioridad**: Alta (Juego Temprano a Medio)
+  </Card>
+  <Card title="Eficiencia de Recolección">
+    - **Función**: Acelera el proceso de llenado
+    - **Ideal para**: Farmear más rápido en zonas poco profundas
+    - **Prioridad**: Media (Juego Temprano)
+  </Card>
+  <Card title="Eficiencia de Fichas">
+    - **Función**: Multiplica las fichas obtenidas por drenaje
+    - **Ideal para**: Escalar la progresión a largo plazo
+    - **Prioridad**: Esencial (Todas las etapas)
+  </Card>
+  <Card title="Progresión de Profundidad">
+    - **Función**: Permite la exploración a mayor profundidad
+    - **Ideal para**: Alcanzar el objetivo final
+    - **Prioridad**: Alta (Juego Tardío)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Error Común">
+No acumules fichas para costosas mejoras de final de juego mientras tus herramientas de juego temprano sigan siendo débiles. Es mejor tener cinco mejoras de Nivel 2 que una sola mejora de Nivel 5 si los niveles más bajos mejoran significativamente tu bucle de farmeo actual.
+</Callout>
+
+A la hora de decidir dónde invertir, sigue la \"Regla del Cuello de Botella\". Si pasas demasiado tiempo parado en la fuente de agua, mejora la Eficiencia de Recolección (Collection Efficiency). Si te encuentras corriendo de regreso al drenaje cada cinco segundos, mejora la Capacidad del Cubo (Bucket Capacity). Si las recompensas te parecen demasiado pequeñas para el esfuerzo realizado, tu objetivo debe ser la Eficiencia de Fichas (Token Efficiency).
+
+| Tipo de Mejora | Escala de Coste | Nivel de Impacto | Nivelación Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Multiplicador de Fichas** | Exponencial | ★★★★★ | Subir de nivel cada 2 o 3 viajes |
+| **Capacidad** | Lineal | ★★★★☆ | Subir de nivel cuando los viajes sean demasiado frecuentes |
+| **Velocidad de Llenado** | Decreciente | ★★★☆☆ | Mantener al 50% del nivel de Capacidad |
+| **Velocidad de Movimiento** | Alta | ★★★★☆ | Esencial para rutas de agua profunda |
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para tu primera partida">
+
+Comenzar tu viaje en Drain the Lake puede parecer lento, pero seguir una ruta específica te asegura no perder tiempo en caminos ineficientes. Utiliza estos pasos para impulsar tu **progresión rápida en drain the lake** y alcanzar el juego medio dentro de tu primera hora de juego.
+
+<Steps>
+  <Step num="1" title="El farmeo inicial">
+    Comienza llenando tu cubo en la fuente de agua más cercana. No te alejes demasiado; mantente lo más cerca posible del punto de drenaje. Completa de 5 a 10 viajes rápidos para ganar tu primer conjunto de fichas.
+  </Step>
+  <Step num="2" title="Primera inversión en el Árbol de Habilidades">
+    Gasta tus primeras fichas en **Eficiencia de Fichas** (Token Efficiency). Esto asegura que cada viaje posterior sea más valioso que el anterior. Evita la tentación de comprar capacidad primero, ya que tu distancia de viaje actual es muy corta.
+  </Step>
+  <Step num="3" title="Equilibrar la capacidad">
+    Una vez que tus fichas por viaje se hayan duplicado, invierte en **Capacidad del Cubo** (Bucket Capacity). Esto te permitirá permanecer más tiempo en la fuente de agua y reducirá el tiempo de transición entre el lago y el drenaje.
+  </Step>
+  <Step num="4" title="Avanzar hacia la profundidad">
+    A medida que los niveles de agua poco profunda se agoten, necesitarás adentrarte más. Antes de hacerlo, asegúrate de activar tus habilidades de **Velocidad de Movimiento** (Movement Speed) o **Soporte de Profundidad** (Depth Support) para evitar que el aumento del tiempo de viaje hunda tu tasa de fichas por hora.
+  </Step>
+  <Step num="5" title="La auditoría de eficiencia">
+    Cada 15 minutos, detente y observa a tu personaje. ¿Pasas más tiempo caminando o llenando el cubo? Ajusta tus próximas tres mejoras para solucionar la parte del bucle que sea actualmente más lenta.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito Alcanzado">
+Completar con éxito estos pasos normalmente te situará en el 20% superior de los jugadores activos en cuanto a eficiencia de sesión. La constancia es la clave para drenar el lago por completo.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Eficiencia y rutas de farmeo de fichas">
+
+Farmear fichas de manera eficiente es la única forma de sostener una **progresión rápida en drain the lake** a medida que los costes de mejora suben a miles. El diseño del lago está pensado para tentarte a ir a zonas más profundas y de \"mayor valor\", pero estas áreas a menudo conllevan un coste oculto: el tiempo de viaje. Un viaje a aguas profundas que te otorgue 100 fichas pero tarde 60 segundos es objetivamente peor que un viaje a aguas poco profundas que te dé 30 fichas pero solo tarde 10 segundos.
+
+| Tipo de Ruta | Tiempo Promedio | Rendimiento de Fichas | Calificación de Eficiencia |
+| :--- | :--- | :--- | :--- |
+| **Orilla Poco Profunda** | 8s | Bajo | 9/10 (Juego Temprano) |
+| **Plataforma de Profundidad Media** | 25s | Medio | 7/10 (Equilibrado) |
+| **Fosa Profunda** | 55s | Alto | 6/10 (Solo Juego Tardío) |
+| **Esprint Optimizado** | 15s | Medio-Alto | 10/10 (Experto) |
+
+<Callout type="info" title="Estrategia de Experto">
+Utiliza la geografía del lago a tu favor. Busca puntos de desnivel donde el agua sea profunda pero esté relativamente cerca del drenaje de la orilla. Estos \"puntos estratégicos\" son el secreto para acumular fichas rápidamente.
+</Callout>
+
+Para mantener la máxima eficiencia, debes calcular periódicamente tus **Fichas Por Minuto (FPM)**. 
+1. Pon un temporizador de 60 segundos.
+2. Realiza tu bucle habitual lo más rápido posible.
+3. Anota las fichas obtenidas.
+4. Prueba una ruta o prioridad de mejora diferente y repite el proceso.
+5. Quédate con el método que genere las FPM más altas, independientemente de lo \"emocionante\" que resulte la ruta.
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de progresión avanzada">
+
+A medida que te acercas a las secciones más profundas del lago, el juego se convierte en una prueba de resistencia y gestión de recursos. Utiliza esta lista de verificación para asegurarte de estar preparado para el empuje final hacia el Teléfono Perdido.
+
+<Checklist
+  id="late-game-prep"
+  title="Objetivos de preparación para el juego tardío:"
+  items={[
+    "Alcanzar el Nivel 10 en Eficiencia de Fichas (Token Efficiency)",
+    "Desbloquear la mejora del Cubo de Nivel Medio (Mid-Tier Bucket)",
+    "Identificar el camino más corto hacia la marca de 50 metros de profundidad",
+    "Maximizar la Velocidad de Movimiento para contrarrestar la resistencia del agua profunda",
+    "Acumular una reserva de fichas para los nodos de alto coste del juego tardío"
+  ]}
+/>
+
+<Callout type="warning" title="Peligro en las Profundidades">
+Entrar en las partes más profundas del lago sin las mejoras suficientes puede provocar un \"estancamiento de progresión\", donde el tiempo necesario para devolver el agua es tan largo que tu crecimiento se detiene. Prepárate siempre de más antes de sumergirte a gran profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Para ayudarte aún más en tu **progresión rápida en drain the lake**, hemos recopilado las preguntas más comunes de la comunidad sobre las mecánicas y la eficiencia.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de conseguir fichas en Drain the Lake?",
+    answer: "La forma más rápida es priorizar la 'Eficiencia de Fichas' (Token Efficiency) en el Árbol de Habilidades y ceñirse a rutas de corta distancia. Los viajes de alta frecuencia en aguas poco profundas suelen generar más fichas por minuto que los viajes de larga distancia en aguas profundas hasta que maximices tu velocidad de movimiento."
+  },
+  {
+    question: "¿Cuándo debo mejorar la capacidad de mi cubo?",
+    answer: "Mejora la capacidad de tu cubo siempre que el tiempo dedicado a llenarlo sea significativamente menor que el tiempo dedicado a caminar hacia el drenaje. Lo ideal es que tu tiempo de 'trabajo' sea aproximadamente igual o mayor que tu tiempo de 'viaje'."
+  },
+  {
+    question: "¿Hay códigos activos para Drain the Lake en 2026?",
+    answer: "Actualmente, no hay códigos de canje públicos verificados disponibles para Drain the Lake. La progresión se basa completamente en el juego y en el uso eficiente del sistema del Árbol de Habilidades."
+  },
+  {
+    question: "¿Cómo encuentro el Teléfono Perdido?",
+    answer: "El Teléfono Perdido se encuentra en el punto más profundo del lago. Para alcanzarlo, debes mejorar constantemente tu 'Progresión de Profundidad' (Depth Progression) y tu 'Velocidad de Movimiento' (Movement Speed) para sobrevivir al trayecto de ida y vuelta con el cubo lleno."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+¡Recuerda que Drain the Lake es un maratón, no un esprint, aunque intentemos correr a través de él! Mantente concentrado en tu Árbol de Habilidades, vigila tus FPM y ¡recuperarás ese teléfono en un abrir y cerrar de ojos!
+</Callout>
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Objetos de Drain the Lake: Guía de Equipamiento y Niveles de Progresión",
+  description: "Domina todos los objetos de Drain the Lake con nuestra guía sobre mejoras de baldes, farmeo de fichas, prioridades del árbol de habilidades y la forma más rápida de recuperar tu teléfono en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Drain+the+Lake+Items+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Drain the Lake",
+  keywords: "objetos de drain the lake, guía de equipamiento, mejoras de balde, farmeo de fichas, árbol de habilidades"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetos Clave**: Concéntrate en mejorar tu **Balde** y los nodos del **Árbol de Habilidades** para maximizar el desplazamiento de agua.
+- **Bucle de Progresión**: Recoge agua, drénala para obtener **Fichas** (Tokens) y reinvierte en mejoras de eficiencia para alcanzar niveles más profundos.
+- **Objetivo Final**: El objeto definitivo es el **Teléfono Perdido**, ubicado en el fondo absoluto del lago.
+- **Consejo de Eficiencia**: Prioriza la **Capacidad del Balde** sobre la velocidad en el juego temprano para reducir la cantidad de viajes al punto de drenaje.
+- **Estrategia de Fichas**: Los niveles de mayor profundidad otorgan significativamente más fichas, pero requieren mejor equipamiento para sobrevivir al tiempo de viaje.
+</Callout>
+
+<Section icon={Map} title="Objetos y Herramientas Esenciales de Drain the Lake">
+
+En el mundo de Drain the Lake, tu éxito está dictado por la eficacia con la que gestiones tus recursos y equipamiento. El bucle de juego principal gira en torno a un conjunto específico de **objetos de drain the lake** que te permiten interactuar con el entorno y progresar a través de las profundidades llenas de agua. Sin una comprensión sólida de cómo escalan estos objetos, los jugadores a menudo se encuentran atrapados en una rutina repetitiva sin lograr un progreso de profundidad significativo.
+
+La herramienta más fundamental en tu arsenal es el Balde. Aunque comienza como un contenedor simple, con el tiempo se convierte en una máquina de alta capacidad capaz de mover cantidades masivas de agua en un solo viaje. Junto con el balde, las Fichas sirven como la moneda-objeto principal, facilitando cada mejora dentro del expansivo Árbol de Habilidades del juego.
+
+| Nombre del Objeto | Función Principal | Método de Obtención | Importancia |
+| :--- | :--- | :--- | :--- |
+| **Balde Básico** | Recoge y transporta agua | Equipamiento Inicial | Alta (Juego Temprano) |
+| **Fichas (Tokens)** | Moneda para todas las mejoras | Drenar agua en la estación | Crítica |
+| **Puntos de Árbol de Habilidades** | Desbloquea mejoras permanentes | Ganados mediante hitos de fichas | Permanente |
+| **Teléfono Perdido** | Objeto de objetivo final | Ubicado en el fondo del lago | Meta Narrativa |
+| **Llaves de Profundidad** | Desbloquea secciones más profundas | Progresión del Árbol de Habilidades | Juego Medio-Tardío |
+
+<Callout type="success" title="Gestión del Inventario">
+Asegúrate siempre de que tu balde esté completamente vacío antes de volver al lago. Llevar incluso una pequeña cantidad de agua residual puede impedir que recojas objetos coleccionables de gran valor que se encuentran en las secciones más profundas.
+</Callout>
+
+Más allá del balde básico, los jugadores se encontrarán con varios objetos ambientales que ayudan en la navegación. Estos no siempre son objetos que se puedan \"sostener\", pero son componentes críticos del sistema de progresión con los que debes interactuar para tener éxito.
+
+</Section>
+
+<Section icon={Target} title="Mejoras de Balde y Escalado de Equipamiento">
+
+A medida que reúnas más fichas, tu enfoque principal debe ser la evolución de tu equipamiento. El balde no es solo un objeto estático; cuenta con varias estadísticas mejorables que afectan directamente a tu relación de \"Fichas Por Hora\" (FPH). Comprender qué estadísticas priorizar te ahorrará horas de farmeo innecesario.
+
+La eficiencia en Drain the Lake es un equilibrio entre cuánto puedes cargar y qué tan rápido puedes moverlo. Si tu capacidad es demasiado alta pero tu velocidad de movimiento es baja, perderás tiempo viajando. Por el contrario, si eres rápido pero tienes un balde diminuto, perderás tiempo regresando constantemente al drenaje.
+
+| Nivel de Mejora | Incremento de Capacidad | Costo (Fichas) | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1: Plástico** | +10 Unidades | 50 | Inicio inicial |
+| **Nivel 2: Madera** | +25 Unidades | 250 | Primera transición de profundidad |
+| **Nivel 3: Hierro** | +60 Unidades | 1,200 | Exploración a mitad del lago |
+| **Nivel 4: Oro** | +150 Unidades | 5,000 | Farmeo en aguas profundas |
+| **Nivel 5: Diamante** | +400 Unidades | 25,000 | Completado del juego tardío |
+
+<CardGrid cols={2}>
+  <Card title="Enfoque en Capacidad">
+    - **Pros**: Menos viajes al punto de drenaje.
+    - **Cons**: Puede hacer que el personaje se sienta pesado o lento.
+    - **Estrategia**: Ideal para jugadores que prefieren un enfoque \"lento pero seguro\".
+  </Card>
+  <Card title="Enfoque en Velocidad">
+    - **Pros**: Ciclos rápidos y exploración más veloz.
+    - **Cons**: Requiere atención constante y hacer clics continuos.
+    - **Estrategia**: Ideal para jugadores activos que buscan maximizar la ganancia de fichas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Rendimientos Decrecientes">
+Evita invertir demasiado en una sola estadística demasiado pronto. Un balde de Nivel 5 es inútil si tu velocidad de movimiento todavía está en el Nivel 1, ya que el tiempo de viaje anulará los beneficios de la mayor capacidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Árbol de Habilidades: Mejoras Permanentes de Objetos">
+
+El Árbol de Habilidades es donde conviertes tus ganancias temporales en poder permanente. A diferencia del balde, que mejoras de forma lineal, el Árbol de Habilidades permite crear \"builds\" (configuraciones) que pueden favorecer diferentes estilos de juego. Cada nodo del árbol actúa como un modificador para tus **objetos de drain the lake**, haciéndolos más efectivos en entornos específicos.
+
+Hay tres ramas principales en el meta actual de 2026: Recolección, Economía y Utilidad. Equilibrar estas ramas es la clave para llegar al fondo del lago sin chocar contra un muro de progresión.
+
+<Steps>
+  <Step num="1" title="Fundamentos de Economía">
+    Invierte tus primeras 500 fichas en el nodo **Multiplicador de Fichas**. Esto aumenta el valor de cada litro de agua que drenas, acelerando eficazmente todas las compras futuras.
+  </Step>
+  <Step num="2" title="Eficiencia de Recolección">
+    Desbloquea la habilidad **Llenado Rápido**. Esto reduce el tiempo que se tarda en llenar tu balde en un 30%, lo cual es vital cuando esquivas obstáculos en aguas más profundas.
+  </Step>
+  <Step num="3" title="Resistencia a la Profundidad">
+    A medida que desciendes, la presión del agua aumenta. Desbloquea el nodo **Traje de Presión** para mantener tu velocidad de movimiento incluso en los puntos más bajos del lago.
+  </Step>
+  <Step num="4" title="Nodos de Maestría">
+    Finalmente, apunta a la maestría de **Auto-Drenaje**. Esto permite que una parte de tu agua se convierta en fichas automáticamente, reduciendo la necesidad de regresar a la superficie con tanta frecuencia.
+  </Step>
+</Steps>
+
+| Rama de Habilidad | Nodo Clave | Efecto | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Recolección** | Poder de Succión | Recolección de agua más rápida | Alta |
+| **Economía** | Tasa de Interés | Ganancia pasiva de fichas | Media |
+| **Utilidad** | Tanque de Oxígeno | Mayor duración bajo el agua | Crítica |
+| **Exploración** | Sonar | Resalta tesoros ocultos | Baja |
+
+<Callout type="tip" title="Estrategia de Reseteo">
+Si encuentras que tu progresión se ha estancado, comprueba si tienes demasiados puntos en 'Exploración'. En el juego temprano, 'Economía' y 'Recolección' proporcionan retornos de inversión mucho más altos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión y Coleccionables">
+
+Aunque el objetivo principal es el teléfono, hay varios **objetos de drain the lake** intermedios e hitos que señalan tu progreso. Estos coleccionables a menudo otorgan enormes bonificaciones de fichas de una sola vez o aumentos permanentes de estadísticas que no están disponibles a través del Árbol de Habilidades estándar.
+
+Encontrar estos objetos requiere aventurarse fuera del camino habitual. La mayoría de los jugadores simplemente van de un lado a otro en línea recta, pero los bordes del lago esconden secretos que pueden recortar horas de tu tiempo total de juego.
+
+<Checklist
+  id="progression-items"
+  title="Lista de Verificación de Objetos Críticos:"
+  items={[
+    "Obtener la Llave Oxidada de la Profundidad 1",
+    "Desbloquear el Balde de Hierro de Nivel 3",
+    "Alcanzar el Hito del 50% de Drenaje",
+    "Recolectar el Ancla Dorada (Objeto Secreto)",
+    "Mejorar la Capacidad de Oxígeno al Nivel 10",
+    "Localizar el Teléfono Perdido en el Fondo"
+  ]}
+/>
+
+<Callout type="info" title="Objetos Secretos">
+El **Ancla Dorada** está oculta detrás de una formación rocosa a aproximadamente 200 metros de profundidad. Equipar este objeto (si está disponible en tu versión) o desbloquear su insignia asociada otorga un aumento permanente del 5% a la velocidad de movimiento mientras llevas un balde lleno.
+</Callout>
+
+| Hito | Profundidad Requerida | Recompensa | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Raspador de Superficie** | 0-50m | 1,000 Fichas de Bonificación | Fácil |
+| **Buzo Profundo** | 50-200m | Nuevo Aspecto de Balde | Media |
+| **Caminante del Abismo** | 200-500m | Cubo de Reseteo del Árbol de Habilidades | Difícil |
+| **Leyenda del Lago** | 500m+ | El Teléfono Perdido | Extrema |
+
+</Section>
+
+<Section icon={Shield} title="Consejos de Optimización para Farmear Fichas">
+
+Para maximizar tu eficiencia con los **objetos de drain the lake**, debes optimizar tu ruta. Farmear fichas no se trata solo de tener el mejor balde; se trata de minimizar el \"tiempo muerto\", es decir, el tiempo que pasas sin recolectar ni drenar agua.
+
+Los jugadores experimentados utilizan una técnica llamada \"Short-Looping\" (bucles cortos) en el juego temprano y \"Depth-Pushing\" (empuje de profundidad) en el juego tardío. Al comprender la física del drenaje de agua, puedes posicionarte para minimizar la distancia a pie entre la fuente de agua y el punto de recolección.
+
+| Método de Farmeo | Nivel Recomendado | Fichas Por Minuto | Nivel de Esfuerzo |
+| :--- | :--- | :--- | :--- |
+| **Recolección en la Orilla** | Nivel 1-2 | 50 - 150 | Bajo |
+| **Ciclos de Profundidad Media** | Nivel 3 | 400 - 800 | Medio |
+| **Dragado de Mar Profundo** | Nivel 4-5 | 2,000+ | Alto |
+| **Ganancia Pasiva AFK** | Cualquiera (con nodos) | 100 (Estático) | Ninguno |
+
+<Callout type="success" title="El Meta de 2026">
+Los jugadores actuales de primer nivel sugieren centrarse por completo en los nodos de **Eficiencia de Fichas** hasta alcanzar las 10,000 fichas totales. Este comienzo \"codicioso\" te permite evitar por completo la dificultad del juego medio al saltar directamente al nivel del Balde de Oro.
+</Callout>
+
+Recuerda siempre que el lago es dinámico. A medida que el nivel del agua baja, el entorno cambia. Los objetos que antes estaban a gran profundidad bajo el agua podrían volverse accesibles en tierra firme, y se abrirán nuevos caminos. Vigila de cerca el elemento de la interfaz de usuario \"Porcentaje de Drenaje\" para saber cuándo cambiar tu lugar de farmeo.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objeto más importante en Drain the Lake?",
+    answer: "El Balde es tu herramienta más importante, pero el Árbol de Habilidades es el sistema más importante. Sin mejorar la capacidad y la velocidad de tu balde a través del Árbol de Habilidades, no podrás alcanzar las secciones más profundas del lago."
+  },
+  {
+    question: "¿Cómo obtengo más objetos de Drain the Lake rápidamente?",
+    answer: "La forma más rápida de obtener objetos y mejoras es concentrarse en la habilidad 'Multiplicador de Fichas' desde el principio. Esto aumenta tus ingresos por viaje, lo que te permite comprar mejores baldes y desbloquear nuevos niveles mucho más rápido que los jugadores que se centran primero en la velocidad de movimiento."
+  },
+  {
+    question: "¿Dónde se encuentra el Teléfono Perdido?",
+    answer: "El Teléfono Perdido es el objeto final del juego y se encuentra en el fondo absoluto del lago (Profundidad 500m+). Debes drenar una parte significativa del volumen total del lago antes de que el área que contiene el teléfono sea accesible."
+  },
+  {
+    question: "¿Hay objetos de tiempo limitado en la versión de 2026?",
+    answer: "Aunque la mayoría de los objetos son permanentes, ciertos eventos de temporada pueden introducir aspectos de balde de edición limitada o potenciadores temporales de fichas. Revisa la sección de 'Actualizaciones' del menú del juego regularmente para mantenerte informado."
+  }
+]} />
+
+</Section>

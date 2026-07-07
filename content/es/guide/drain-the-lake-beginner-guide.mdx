@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de iniciación de drain the lake: Progresión y farmeo de tokens",
+  description: "Aprende el bucle de juego principal, optimiza las mejoras de tu árbol de habilidades y farmea tokens de manera eficiente en esta guía completa de iniciación de drain the lake.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Beginner+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de drain the lake"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Bucle principal**: Completa el bucle principal usando esta **guía de iniciación de drain the lake** para farmear tokens de manera eficiente.
+- **Prioridad de mejora**: Prioriza la **Capacidad del cubo** al principio para minimizar el tiempo de viaje entre el agua y los desagües.
+- **Regla de progresión**: Avanza a **niveles más profundos del lago** solo cuando tu configuración actual funcione con comodidad.
+- **Farmeo de tokens**: Concéntrate en **rutas cortas** en lugar de dar rodeos largos para lograr la máxima eficiencia.
+</Callout>
+
+<Section icon={Sparkles} title="Bucle de juego principal y mecánicas">
+
+Drain the Lake es una experiencia incremental de Roblox donde tu objetivo principal es recuperar un teléfono perdido que descansa en el fondo de un lago profundo. Para lograrlo, debes vaciar sistemáticamente el agua del lago, ganar tokens, mejorar tu equipamiento y desbloquear zonas más profundas. El estilo de juego depende en gran medida de repetir un bucle altamente optimizado de recolectar agua, drenarla y gastar la moneda en mejoras permanentes.
+
+Comprender las mecánicas de recolección de agua es crucial para el éxito inicial. Cuando comienzas el juego, estás equipado con un cubo básico que tiene una capacidad limitada. Caminar hacia la fuente de agua llena tu cubo automáticamente. Una vez lleno, debes regresar al punto de drenaje central para depositar el agua. Drenar el agua la convierte directamente en tokens, que se utilizan para desbloquear nodos en tu árbol de habilidades.
+
+<Callout type="warning" title="Trampa de progresión">
+No intentes explorar áreas profundas de inmediato. Caminar distancias largas con un cubo de baja capacidad disminuye significativamente tu eficiencia de tokens por minuto.
+</Callout>
+
+Para ayudarte a visualizar la estructura básica del bucle, revisa la siguiente tabla que describe cada fase del bucle de juego principal y su métrica clave.
+
+|Fase|Acción|Recompensa principal|Métrica clave|
+|---|---|---|---|
+|**Recolección**|Llenar el cubo en la fuente de agua|Volumen de agua|Velocidad de llenado|
+|**Drenaje**|Vaciar el cubo en el punto de drenaje|**Tokens**|Eficiencia de drenaje|
+|**Mejora**|Gastar tokens en el árbol de habilidades|Mejoras permanentes|Coste de tokens|
+|**Exploración**|Descender a áreas más profundas|Nuevas zonas|Profundidad alcanzada|
+
+Cada ciclo de este bucle aumenta tu capacidad para manejar mayores volúmenes de agua. A medida que obtienes más tokens, la distancia que puedes recorrer aumenta, lo que te permite aventurarte más profundamente en el lecho del lago sin sacrificar tu potencial de ganancias.
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades de mejora del árbol de habilidades">
+
+El árbol de habilidades es la base de la progresión a largo plazo en el juego. Gastar tus tokens al azar ralentizará tu progreso. En su lugar, debes concentrarte en mejorar ramas específicas del árbol de habilidades que reduzcan directamente el tiempo que lleva completar una sola ronda. El árbol se divide en capacidad, velocidad de recolección, multiplicadores de tokens y acceso a la profundidad.
+
+Para maximizar tu eficiencia, debes priorizar las mejoras que resuelvan tus cuellos de botella inmediatos. Por ejemplo, si descubres que pasas más tiempo caminando que llenando el cubo, tu capacidad es demasiado baja. Por el contrario, si llenas tu cubo al instante pero ganas muy pocos tokens, necesitas invertir en eficiencia de tokens.
+
+<Callout type="tip" title="Estrategia de mejora">
+Prioriza siempre la Capacidad del cubo sobre la Eficiencia de recolección en el juego temprano. Llevar más agua por viaje es más valioso que llenar un cubo diminuto más rápido.
+</Callout>
+
+Aquí tienes un desglose de las principales rutas de mejora disponibles en el árbol de habilidades:
+
+<CardGrid cols={2}>
+  <Card title="Capacidad del cubo">
+    - **Reduce la frecuencia de viaje**
+    - Incrementa la carga máxima de agua
+    - Esencial para la exploración profunda
+  </Card>
+  <Card title="Eficiencia de recolección">
+    - **Acelera la recolección de agua**
+    - Reduce el tiempo que pasas en la fuente de agua
+    - Se combina mejor con cubos grandes
+  </Card>
+  <Card title="Eficiencia de tokens">
+    - **Multiplica los ingresos de tokens**
+    - Incrementa el valor por unidad de agua
+    - Acelera la progresión a mitad del juego
+  </Card>
+  <Card title="Progresión de profundidad">
+    - **Desbloquea áreas más profundas**
+    - Otorga acceso a nuevas fuentes de agua
+    - Requerido para llegar al teléfono perdido
+  </Card>
+</CardGrid>
+
+Para planificar tus inversiones en el árbol de habilidades, consulta la matriz de prioridad a continuación, que clasifica cada categoría de mejora según su impacto general en la progresión.
+
+|Nombre de habilidad|Prioridad|Mejor etapa|Impacto|
+|---|---|---|---|
+|**Capacidad del cubo**|★★★★★|Juego temprano|Reduce la frecuencia de viaje|
+|**Eficiencia de recolección**|★★★★☆|Juego temprano/medio|Acelera la recolección de agua|
+|**Eficiencia de tokens**|★★★★★|Juego medio|Aumenta el rendimiento de tokens por drenaje|
+|**Progresión de profundidad**|★★★☆☆|Juego tardío|Desbloquea zonas de exploración más profundas|
+
+Al estructurar tus mejoras de acuerdo con esta matriz, te aseguras de que cada token gastado se traduzca directamente en tiempos de ejecución más rápidos y mayores rendimientos.
+
+</Section>
+
+<Section icon={Map} title="Guía de progresión paso a paso">
+
+Navegar desde tu primer cubo hasta las profundidades más bajas del lago requiere un enfoque estructurado. Avanzar apresuradamente sin las mejoras adecuadas resultará en una progresión lenta y tiempo perdido. Sigue esta ruta de progresión paso a paso para llegar al fondo del lago de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Establece el bucle básico">
+    Comienza recolectando agua de la parte más superficial del lago. Mantente cerca del punto de drenaje para minimizar el tiempo de viaje. Repite este proceso hasta que hayas reunido suficientes tokens para comprar tus primeras tres mejoras en el árbol de habilidades.
+  </Step>
+  <Step num="2" title="Maximiza tu capacidad">
+    Concentra todos tus tokens iniciales en mejorar la capacidad de tu cubo. No te alejes del área de inicio hasta que tu cubo pueda contener al menos cinco veces su volumen inicial. Esto asegura que hagas menos viajes de regreso al desagüe.
+  </Step>
+  <Step num="3" title="Desbloquea las zonas medias del lago">
+    Una vez que tu capacidad y la eficiencia de tokens estén equilibradas, comienza a avanzar hacia la zona media del lago. Las fuentes de agua aquí rinden más tokens por drenaje, pero requieren tiempos de viaje más largos. Ajusta tu ruta para evitar obstáculos.
+  </Step>
+  <Step num="4" title="Optimiza para el abismo">
+    Antes de entrar en la parte más profunda del lago, maximiza tus mejoras de eficiencia de tokens. Necesitarás una reserva masiva de tokens para desbloquear los requisitos de profundidad final y recuperar de manera segura el teléfono perdido.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta de hito">
+Alcanzar una capacidad de 10 unidades marca la transición del juego temprano al juego medio. En este punto, tu tasa de generación de tokens se duplicará.
+</Callout>
+
+Para ayudarte a realizar un seguimiento de tu progreso, consulta la tabla de hitos de progresión a continuación, que detalla las mejoras recomendadas y los objetivos de tokens para cada etapa del juego.
+
+|Hito|Mejoras objetivo|Objetivo de tokens|Recompensa clave|
+|---|---|---|---|
+|**Primer drenaje**|Cubo básico|10 tokens|Primer punto de habilidad|
+|**Mitad del lago**|Capacidad nivel 5|500 tokens|Acceso a la Zona 2|
+|**Lago profundo**|Capacidad nivel 10|2,500 tokens|Acceso a la Zona 3|
+|**Abismo**|Capacidad máx. y potenciador de tokens|10,000 tokens|**Recuperación del teléfono perdido**|
+
+Utiliza estos hitos como una lista de verificación para evaluar si tu personaje está listo para avanzar a la siguiente zona.
+
+</Section>
+
+<Section icon={Target} title="Optimización del farmeo de tokens">
+
+Farmear tokens de manera eficiente es la clave para completar el juego rápidamente. La velocidad a la que ganas tokens está determinada por tu selección de ruta, velocidad de movimiento y capacidad del cubo. Los jugadores experimentados diseñan rutas de farmeo específicas que minimizan el tiempo de inactividad y maximizan el volumen de agua entregado al desagüe por minuto.
+
+Al farmear, busca siempre el camino más corto entre el borde del agua y el desagüe. Evita dar rodeos o saltar obstáculos innecesarios, ya que estas acciones desperdician segundos valiosos. A lo largo de sesiones de juego prolongadas, ahorrar incluso dos segundos por viaje puede resultar en miles de tokens adicionales.
+
+<Callout type="info" title="Consejo de farmeo">
+Si una nueva zona está demasiado lejos, a menudo es más eficiente farmear la zona anterior más rápido hasta que puedas permitirte una mejora de velocidad de movimiento o de capacidad.
+</Callout>
+
+Para comparar la eficiencia de las diferentes rutas de farmeo, revisa los datos a continuación.
+
+|Tipo de ruta|Distancia de viaje|Tiempo promedio de bucle|Ratio de rendimiento de tokens|
+|---|---|---|---|
+|**Ruta corta**|Corta|**Rápido**|Alta eficiencia|
+|**Ruta media**|Media|Moderado|Rendimiento equilibrado|
+|**Ruta profunda**|Larga|Lento|Bajo sin mejoras|
+
+Como se muestra en la tabla, la ruta corta sigue siendo la opción más eficiente hasta que tu capacidad sea lo suficientemente alta como para justificar los largos tiempos de viaje de la ruta profunda.
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación esencial y consejos">
+
+Para asegurarte de que estás progresando a un ritmo óptimo, vigila de cerca tu ruta de mejora y tus hábitos de farmeo. Pequeños errores en tu estrategia pueden llevar a un farmeo innecesario. Utiliza la lista de verificación a continuación para mantenerte en el camino correcto.
+
+<Callout type="warning" title="Verificación de eficiencia">
+Calcula regularmente tus tokens ganados por minuto. Si tus ganancias disminuyen después de mudarte a una zona más profunda, regresa a la zona anterior de inmediato.
+</Callout>
+
+<Checklist
+  id="beginner-progression-goals"
+  title="Objetivos de progresión para principiantes:"
+  items={[
+    "Mejora la capacidad del cubo al nivel 5 antes de explorar zonas más profundas",
+    "Invierte en eficiencia de tokens para multiplicar tus ganancias por ronda",
+    "Establece una ruta de farmeo corta y libre de obstáculos cerca del desagüe",
+    "Evita guardar tokens para mejoras costosas del juego tardío al principio",
+    "Verifica que tu velocidad de recolección coincida con tus mejoras de capacidad"
+  ]}
+/>
+
+Seguir estos objetivos mantendrá tu progresión fluida y evitará que te estanques en las zonas de mitad del juego.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Esta sección aborda las preguntas más comunes que se hacen los jugadores al comenzar su viaje para vaciar el lago.
+
+<Callout type="tip" title="Ayuda de la comunidad">
+Si te quedas atascado, consulta la descripción oficial de la página del juego en Roblox para obtener información sobre los cambios de equilibrio recientes y los ajustes de juego.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal de esta guía de iniciación de drain the lake?",
+    answer: "Esta guía está diseñada para ayudar a los jugadores a optimizar su progresión en el juego temprano, comprender el bucle principal de drenaje de agua e identificar las rutas de mejora más eficientes en el árbol de habilidades."
+  },
+  {
+    question: "¿Qué mejora del árbol de habilidades debería comprar primero?",
+    answer: "Siempre debes priorizar la Capacidad del cubo primero. Aumentar la cantidad de agua que puedes llevar reduce la cantidad de viajes que necesitas hacer al desagüe, que es el mayor cuello de botella en el juego temprano."
+  },
+  {
+    question: "¿Cuándo es el mejor momento para mudarse a una zona más profunda?",
+    answer: "Múdate a una zona más profunda solo cuando la capacidad de tu cubo y tu velocidad de movimiento te permitan recorrer una distancia más larga sin disminuir significativamente tu tasa general de ganancia de tokens por minuto."
+  },
+  {
+    question: "¿Hay códigos de canje activos disponibles?",
+    answer: "Actualmente no hay códigos de canje públicos verificados disponibles para Drain the Lake. El progreso depende completamente de completar el bucle de juego y mejorar tu árbol de habilidades."
+  }
+]} />
+
+</Section>

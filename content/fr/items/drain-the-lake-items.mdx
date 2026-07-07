@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Objets de Drain the Lake : Guide d'équipement et paliers de progression",
+  description: "Maîtrisez tous les objets de Drain the Lake grâce à notre guide sur les améliorations de seau, le farming de jetons, les priorités de l'arbre de compétences et le moyen le plus rapide de récupérer votre téléphone en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Drain+the+Lake+Items+Guide",
+  date: "2026-07-07",
+  author: "L'équipe du Wiki de Drain the Lake"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objets de base** : Concentrez-vous sur l'amélioration de votre **Seau** et des nœuds de l'**Arbre de compétences** pour maximiser le déplacement de l'eau.
+- **Boucle de progression** : Collectez de l'eau, videz-la pour obtenir des **Jetons**, et réinvestissez-les dans des améliorations d'efficacité pour atteindre des niveaux plus profonds.
+- **Objectif ultime** : L'objet final est le **Téléphone perdu**, situé tout au fond du lac.
+- **Conseil d'efficacité** : Priorisez la **Capacité du seau** plutôt que la vitesse en début de partie pour réduire le nombre de trajets vers le point de vidange.
+- **Stratégie de jetons** : Les niveaux de profondeur plus élevés rapportent beaucoup plus de jetons mais nécessitent un meilleur équipement pour survivre au temps de trajet.
+</Callout>
+
+<Section icon={Map} title="Objets et outils essentiels de Drain the Lake">
+
+Dans le monde de Drain the Lake, votre succès dépend de l'efficacité avec laquelle vous gérez vos ressources et votre équipement. La boucle de gameplay principale tourne autour d'un ensemble spécifique d'**objets de Drain the Lake** qui vous permettent d'interagir avec l'environnement et de progresser à travers les profondeurs remplies d'eau. Sans une bonne compréhension de la progression de ces objets, les joueurs se retrouvent souvent bloqués dans une routine répétitive sans faire de progrès significatifs en profondeur.
+
+L'outil le plus fondamental de votre arsenal est le Seau. Bien qu'il commence comme un simple récipient, il devient par la suite une machine à grande capacité capable de déplacer d'immenses quantités d'eau en un seul voyage. En plus du seau, les Jetons servent de monnaie d'échange principale, facilitant chaque amélioration au sein du vaste Arbre de compétences du jeu.
+
+| Nom de l'objet | Fonction principale | Méthode d'obtention | Importance |
+| :--- | :--- | :--- | :--- |
+| **Seau de base** | Collecte et transporte l'eau | Équipement de départ | Élevée (Début de partie) |
+| **Jetons** | Monnaie pour toutes les améliorations | Vidange de l'eau à la station | Cruciale |
+| **Points d'arbre de compétences** | Débloque des améliorations permanentes | Obtenus via les paliers de jetons | Permanents |
+| **Téléphone perdu** | Objet d'objectif final | Situé au fond du lac | Objectif narratif |
+| **Clés de profondeur** | Débloque des sections plus profondes | Progression de l'arbre de compétences | Milieu/Fin de partie |
+
+<Callout type="success" title="Gestion de l'inventaire">
+Assurez-vous toujours que votre seau est complètement vidé avant de retourner dans le lac. Transporter ne serait-ce qu'une petite quantité d'eau résiduelle peut vous empêcher de ramasser des objets de valeur trouvés dans les sections plus profondes.
+</Callout>
+
+Au-delà du seau de base, les joueurs rencontreront divers objets environnementaux qui facilitent la navigation. Il ne s'agit pas toujours d'objets à « tenir », mais ils constituent des éléments essentiels du système de progression avec lesquels vous devez interagir pour réussir.
+
+</Section>
+
+<Section icon={Target} title="Améliorations du seau et progression de l'équipement">
+
+À mesure que vous accumulez des jetons, votre objectif principal doit être l'évolution de votre équipement. Le seau n'est pas un simple objet statique ; il dispose de plusieurs statistiques améliorables qui ont un impact direct sur votre ratio de « Jetons par heure » (TPH). Comprendre quelles statistiques prioriser vous évitera des heures de farming inutile.
+
+L'efficacité dans Drain the Lake est un équilibre entre ce que vous pouvez transporter et la vitesse à laquelle vous pouvez le déplacer. Si votre capacité est trop élevée mais que votre vitesse de déplacement est faible, vous perdez du temps à voyager. À l'inverse, si vous êtes rapide mais possédez un seau minuscule, vous perdez du temps à retourner constamment au point de vidange.
+
+| Palier d'amélioration | Augmentation de capacité | Coût (Jetons) | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Palier 1 : Plastique** | +10 unités | 50 | Démarrage initial |
+| **Palier 2 : Bois** | +25 unités | 250 | Première transition de profondeur |
+| **Palier 3 : Fer** | +60 unités | 1 200 | Exploration du milieu du lac |
+| **Palier 4 : Or** | +150 unités | 5 000 | Farming en eau profonde |
+| **Palier 5 : Diamant** | +400 unités | 25 000 | Fin de partie / Complétion |
+
+<CardGrid cols={2}>
+  <Card title="Focus sur la capacité">
+    - **Avantages** : Moins de trajets vers le point de vidange.
+    - **Inconvénients** : Peut rendre le personnage lourd ou lent.
+    - **Stratégie** : Idéal pour les joueurs qui préfèrent une approche « lente mais sûre ».
+  </Card>
+  <Card title="Focus sur la vitesse">
+    - **Avantages** : Cycles rapides et exploration plus rapide.
+    - **Inconvénients** : Nécessite une attention constante et beaucoup de clics.
+    - **Stratégie** : Idéal pour les joueurs actifs cherchant à maximiser le gain de jetons.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Rendements décroissants">
+Évitez de trop investir dans une seule statistique trop tôt. Un seau de palier 5 est inutile si votre vitesse de déplacement est toujours au niveau 1, car le temps de trajet annulera les avantages de la plus grande capacité.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="L'arbre de compétences : Améliorations permanentes d'objets">
+
+L'arbre de compétences est l'endroit où vous transformez vos gains temporaires en puissance permanente. Contrairement au seau, que vous améliorez de manière linéaire, l'arbre de compétences permet des configurations (« builds ») qui peuvent favoriser différents styles de jeu. Chaque nœud de l'arbre agit comme un modificateur pour vos **objets de Drain the Lake**, les rendant plus efficaces dans des environnements spécifiques.
+
+Il existe trois branches principales dans la méta actuelle de 2026 : la Collecte, l'Économie et l'Utilité. Équilibrer ces branches est la clé pour atteindre le fond du lac sans se heurter à un mur de progression.
+
+<Steps>
+  <Step num="1" title="Bases de l'économie">
+    Investissez vos 500 premiers jetons dans le nœud **Multiplicateur de jetons**. Cela augmente la valeur de chaque livre d'eau que vous videz, accélérant ainsi tous vos futurs achats.
+  </Step>
+  <Step num="2" title="Efficacité de la collecte">
+    Débloquez la compétence **Remplissage rapide**. Cela réduit de 30 % le temps nécessaire pour remplir votre seau, ce qui est vital lorsque vous esquivez des obstacles en eau profonde.
+  </Step>
+  <Step num="3" title="Résistance à la profondeur">
+    À mesure que vous descendez, la pression de l'eau augmente. Débloquez le nœud **Combinaison de pression** pour maintenir votre vitesse de déplacement même aux points les plus bas du lac.
+  </Step>
+  <Step num="4" title="Nœuds de maîtrise">
+    Enfin, visez la maîtrise **Vidange automatique**. Cela permet à une partie de votre eau d'être convertie automatiquement en jetons, réduisant ainsi la nécessité de retourner si souvent à la surface.
+  </Step>
+</Steps>
+
+| Branche de compétence | Nœud clé | Effet | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Collecte** | Puissance d'aspiration | Collecte d'eau plus rapide | Élevée |
+| **Économie** | Taux d'intérêt | Gain passif de jetons | Moyenne |
+| **Utilité** | Bouteille d'oxygène | Durée sous l'eau plus longue | Cruciale |
+| **Exploration** | Sonar | Met en surbrillance les trésors cachés | Faible |
+
+<Callout type="tip" title="Stratégie de réattribution (Respec)">
+Si vous constatez que votre progression stagne, vérifiez si vous n'avez pas trop de points dans « Exploration ». En début de partie, « Économie » et « Collecte » offrent de bien meilleurs retours sur investissement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Paliers de progression et objets de collection">
+
+Bien que l'objectif principal soit le téléphone, il existe plusieurs **objets de Drain the Lake** et paliers intermédiaires qui marquent votre progression. Ces objets de collection offrent souvent d'importants bonus de jetons uniques ou des augmentations de statistiques permanentes qui ne sont pas disponibles via l'arbre de compétences standard.
+
+Trouver ces objets nécessite de s'aventurer hors des sentiers battus. La plupart des joueurs se contentent de faire des allers-retours en ligne droite, mais les bords du lac recèlent des secrets qui peuvent vous faire gagner des heures de jeu.
+
+<Checklist
+  id="progression-items"
+  title="Liste des objets critiques :"
+  items={[
+    "Obtenir la clé rouillée à la profondeur 1",
+    "Débloquer le seau en fer de palier 3",
+    "Atteindre le palier de vidange de 50 %",
+    "Collecter l'ancre dorée (objet secret)",
+    "Améliorer la capacité d'oxygène au niveau 10",
+    "Localiser le téléphone perdu tout au fond"
+  ]}
+/>
+
+<Callout type="info" title="Objets secrets">
+L'**Ancre dorée** est cachée derrière une formation rocheuse à environ 200 mètres de profondeur. Équiper cet objet (s'il est disponible dans votre version) ou débloquer le badge associé offre un bonus permanent de 5 % à la vitesse de déplacement lorsque vous portez un seau plein.
+</Callout>
+
+| Palier | Profondeur requise | Récompense | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Racleur de surface** | 0-50m | 1 000 jetons bonus | Facile |
+| **Plongeur profond** | 50-200m | Nouvelle apparence de seau | Moyenne |
+| **Marcheur des abysses** | 200-500m | Cube de réinitialisation de l'arbre | Difficile |
+| **Légende du lac** | 500m+ | Le téléphone perdu | Extrême |
+
+</Section>
+
+<Section icon={Shield} title="Conseils d'optimisation pour le farming de jetons">
+
+Pour maximiser votre efficacité avec les **objets de Drain the Lake**, vous devez optimiser votre itinéraire. Le farming de jetons ne consiste pas seulement à avoir le meilleur seau ; il s'agit de minimiser le « temps mort » — le temps passé sans collecter ni vider d'eau.
+
+Les joueurs expérimentés utilisent une technique appelée « Short-Looping » (boucles courtes) en début de partie et « Depth-Pushing » (poussée en profondeur) en fin de partie. En comprenant la physique de l'écoulement de l'eau, vous pouvez vous positionner de manière à minimiser la distance de marche entre la source d'eau et le point de collecte.
+
+| Méthode de farming | Palier recommandé | Jetons par minute | Niveau d'effort |
+| :--- | :--- | :--- | :--- |
+| **Écopage sur le rivage** | Palier 1-2 | 50 - 150 | Faible |
+| **Cycles à mi-profondeur** | Palier 3 | 400 - 800 | Moyen |
+| **Dragage en eau profonde** | Palier 4-5 | 2 000+ | Élevé |
+| **Gain passif AFK** | Tous (avec nœuds) | 100 (statique) | Aucun |
+
+<Callout type="success" title="La méta de 2026">
+Les meilleurs joueurs actuels suggèrent de se concentrer entièrement sur les nœuds d'**Efficacité des jetons** jusqu'à ce que vous atteigniez 10 000 jetons au total. Ce départ axé sur l'économie vous permet de contourner complètement les difficultés du milieu de partie en passant directement au palier du seau en or.
+</Callout>
+
+Rappelez-vous toujours que le lac est dynamique. À mesure que le niveau de l'eau baisse, l'environnement change. Des objets qui étaient autrefois profondément sous l'eau peuvent devenir accessibles sur la terre ferme, et de nouveaux chemins s'ouvriront. Gardez un œil attentif sur l'élément d'interface « Pourcentage de vidange » pour savoir quand changer de lieu de farming.
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quel est l'objet le plus important dans Drain the Lake ?",
+    answer: "Le Seau est votre outil le plus important, mais l'Arbre de compétences est le système le plus important. Sans l'amélioration de la capacité et de la vitesse de votre seau via l'Arbre de compétences, vous ne pourrez pas atteindre les sections les plus profondes du lac."
+  },
+  {
+    question: "Comment obtenir plus d'objets de Drain the Lake rapidement ?",
+    answer: "Le moyen le plus rapide d'obtenir des objets et des améliorations est de se concentrer dès le départ sur la compétence « Multiplicateur de jetons ». Cela augmente vos revenus par trajet, vous permettant d'acheter de meilleurs seaux et de débloquer de nouveaux paliers beaucoup plus rapidement que les joueurs qui se concentrent d'abord sur la vitesse de déplacement."
+  },
+  {
+    question: "Où se trouve le Téléphone perdu ?",
+    answer: "Le Téléphone perdu est l'objet final du jeu et se situe tout au fond du lac (prodondeur de 500 m et plus). Vous devez vider une partie importante du volume total du lac avant de pouvoir accéder à la zone contenant le téléphone."
+  },
+  {
+    question: "Existe-t-il des objets à durée limitée dans la version 2026 ?",
+    answer: "Bien que la plupart des objets soient permanents, certains événements saisonniers peuvent introduire des apparences de seau en édition limitée ou des multiplicateurs de jetons temporaires. Consultez régulièrement la section « Mises à jour » du menu du jeu pour rester informé."
+  }
+]} />
+
+</Section>

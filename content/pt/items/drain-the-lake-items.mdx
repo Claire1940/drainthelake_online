@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Itens de Drain the Lake: Guia de Equipamentos e Níveis de Progressão",
+  description: "Domine todos os itens de Drain the Lake com nosso guia sobre melhorias de balde, farm de tokens, prioridades da árvore de habilidades e a maneira mais rápida de recuperar seu telefone em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Drain+the+Lake+Items+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de Drain the Lake",
+  keywords: "itens drain the lake, guia de equipamentos, farm de tokens, árvore de habilidades, telefone perdido"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Itens Principais**: Foque em melhorar seu **Balde** e os nós da **Árvore de Habilidades** para maximizar o deslocamento de água.
+- **Ciclo de Progressão**: Colete água, drene-a para obter **Tokens** e reinvista em melhorias de eficiência para alcançar níveis mais profundos.
+- **Objetivo Final**: O item final é o **Telefone Perdido**, localizado no fundo absoluto do lago.
+- **Dica de Eficiência**: Priorize a **Capacidade do Balde** em vez da velocidade no início do jogo para reduzir o número de viagens ao ponto de drenagem.
+- **Estratégia de Tokens**: Níveis de profundidade maiores rendem significativamente mais tokens, mas exigem equipamentos melhores para sobreviver ao tempo de deslocamento.
+</Callout>
+
+<Section icon={Map} title="Itens e Ferramentas Essenciais de Drain the Lake">
+
+No mundo de Drain the Lake, seu sucesso é ditado pela eficácia com que você gerencia seus recursos e equipamentos. O ciclo principal de jogabilidade gira em torno de um conjunto específico de **itens de drain the lake** que permitem interagir com o ambiente e progredir pelas profundezas repletas de água. Sem uma compreensão sólida de como esses itens escalam, os jogadores frequentemente se veem presos em uma rotina repetitiva sem fazer um progresso significativo de profundidade.
+
+A ferramenta mais fundamental em seu arsenal é o Balde. Embora comece como um simples recipiente, ele eventualmente se torna uma máquina de alta capacidade capaz de mover quantidades massivas de água em uma única viagem. Ao lado do balde, os Tokens servem como a principal moeda de item, facilitando cada melhoria dentro da expansiva Árvore de Habilidades do jogo.
+
+| Nome do Item | Função Principal | Método de Aquisição | Importância |
+| :--- | :--- | :--- | :--- |
+| **Balde Básico** | Coleta e carrega água | Equipamento Inicial | Alta (Início do Jogo) |
+| **Tokens** | Moeda para todas as melhorias | Drenando água na estação | Crítica |
+| **Pontos de Árvore** | Desbloqueia bônus permanentes | Ganho via marcos de tokens | Permanente |
+| **Telefone Perdido** | Item de objetivo final | Localizado no fundo do lago | Objetivo Narrativo |
+| **Chaves de Profundidade** | Desbloqueia seções profundas | Progressão na Árvore | Meio ao Final do Jogo |
+
+<Callout type="success" title="Gerenciamento de Inventário">
+Sempre certifique-se de que seu balde esteja totalmente vazio antes de voltar para o lago. Carregar até mesmo uma pequena quantidade de água residual pode impedir que você colete itens valiosos encontrados em seções mais profundas.
+</Callout>
+
+Além do balde básico, os jogadores encontrarão vários itens ambientais que auxiliam na navegação. Estes nem sempre são itens "seguráveis", mas são componentes críticos do sistema de progressão com os quais você deve interagir para ter sucesso.
+
+</Section>
+
+<Section icon={Target} title="Melhorias de Balde e Escalonamento de Equipamento">
+
+Conforme você acumula mais tokens, seu foco principal deve ser a evolução do seu equipamento. O balde não é apenas um item estático; ele possui vários atributos melhoráveis que impactam diretamente sua proporção de "Tokens Por Hora" (TPH). Entender quais atributos priorizar economizará horas de grind desnecessário.
+
+A eficiência em Drain the Lake é um equilíbrio entre o quanto você pode carregar e a rapidez com que pode mover isso. Se sua capacidade for muito alta, mas sua velocidade de movimento for baixa, você perderá tempo se deslocando. Por outro lado, se você for rápido, mas tiver um balde minúsculo, perderá tempo retornando constantemente ao dreno.
+
+| Nível de Melhoria | Aumento de Capacidade | Custo (Tokens) | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Nível 1: Plástico** | +10 Unidades | 50 | Início inicial |
+| **Nível 2: Madeira** | +25 Unidades | 250 | Primeira transição de profundidade |
+| **Nível 3: Ferro** | +60 Unidades | 1.200 | Exploração no meio do lago |
+| **Nível 4: Ouro** | +150 Unidades | 5.000 | Farm em águas profundas |
+| **Nível 5: Diamante** | +400 Unidades | 25.000 | Conclusão do final do jogo |
+
+<CardGrid cols={2}>
+  <Card title="Foco em Capacidade">
+    - **Prós**: Menos viagens ao ponto de drenagem.
+    - **Contras**: Pode fazer o personagem parecer pesado ou lento.
+    - **Estratégia**: Melhor para jogadores que preferem uma abordagem "lenta e constante".
+  </Card>
+  <Card title="Foco em Velocidade">
+    - **Prós**: Ciclos rápidos e exploração mais veloz.
+    - **Contras**: Exige atenção constante e cliques.
+    - **Estratégia**: Ideal para jogadores ativos que buscam maximizar o ganho de tokens.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Retornos Decrescentes">
+Evite investir demais em um único atributo muito cedo. Um balde de Nível 5 é inútil se sua velocidade de movimento ainda estiver no Nível 1, pois o tempo de viagem anulará os benefícios da maior capacidade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="A Árvore de Habilidades: Melhorias Permanentes de Itens">
+
+A Árvore de Habilidades é onde você transforma seus ganhos temporários em poder permanente. Ao contrário do balde, que você melhora linearmente, a Árvore de Habilidades permite "builds" que podem favorecer diferentes estilos de jogo. Cada nó na árvore atua como um modificador para seus **itens de drain the lake**, tornando-os mais eficazes em ambientes específicos.
+
+Existem três ramos principais no meta atual de 2026: Coleta, Economia e Utilidade. Equilibrar esses ramos é a chave para chegar ao fundo do lago sem atingir uma barreira de progressão.
+
+<Steps>
+  <Step num="1" title="Fundamentos da Economia">
+    Invista seus primeiros 500 tokens no nó de **Multiplicador de Tokens**. Isso aumenta o valor de cada litro de água que você drena, acelerando efetivamente todas as compras futuras.
+  </Step>
+  <Step num="2" title="Eficiência de Coleta">
+    Desbloqueie a habilidade **Enchimento Rápido**. Isso reduz o tempo necessário para encher seu balde em 30%, o que é vital quando você está desviando de obstáculos em águas mais profundas.
+  </Step>
+  <Step num="3" title="Resistência à Profundidade">
+    À medida que você desce, a pressão da água aumenta. Desbloqueie o nó do **Traje de Pressão** para manter sua velocidade de movimento mesmo nos pontos mais baixos do lago.
+  </Step>
+  <Step num="4" title="Nós de Maestria">
+    Finalmente, mire na maestria de **Auto-Drenagem**. Isso permite que uma parte da sua água seja convertida em tokens automaticamente, reduzindo a necessidade de retornar à superfície com tanta frequência.
+  </Step>
+</Steps>
+
+| Ramo de Habilidade | Nó Principal | Efeito | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Coleta** | Poder de Sucção | Coleta de água mais rápida | Alta |
+| **Economia** | Taxa de Juros | Ganho passivo de tokens | Média |
+| **Utilidade** | Tanque de Oxigênio | Maior duração subaquática | Crítica |
+| **Exploração** | Sonar | Destaca tesouros escondidos | Baixa |
+
+<Callout type="tip" title="Estratégia de Respec">
+Se você sentir que sua progressão estagnou, verifique se você tem muitos pontos em 'Exploração'. No início do jogo, 'Economia' e 'Coleta' oferecem retornos sobre o investimento muito maiores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão e Colecionáveis">
+
+Embora o objetivo principal seja o telefone, existem vários **itens de drain the lake** intermediários e marcos que sinalizam seu progresso. Esses colecionáveis geralmente fornecem bônus massivos de tokens únicos ou aumentos permanentes de atributos que não estão disponíveis através da Árvore de Habilidades padrão.
+
+Encontrar esses itens requer aventurar-se fora do caminho comum. A maioria dos jogadores simplesmente vai e volta em linha reta, mas as bordas do lago guardam segredos que podem economizar horas do seu tempo total de jogo.
+
+<Checklist
+  id="progression-items"
+  title="Checklist de Itens Críticos:"
+  items={[
+    "Obter a Chave Enferrujada da Profundidade 1",
+    "Desbloquear o Balde de Ferro Nível 3",
+    "Alcançar o Marco de 50% de Drenagem",
+    "Coletar a Âncora Dourada (Item Secreto)",
+    "Melhorar a Capacidade de Oxigênio para o Nível 10",
+    "Localizar o Telefone Perdido no Fundo"
+  ]}
+/>
+
+<Callout type="info" title="Itens Secretos">
+A **Âncora Dourada** está escondida atrás de uma formação rochosa a aproximadamente 200 metros de profundidade. Equipar este item (se disponível na sua versão) ou desbloquear seu emblema associado fornece um bônus permanente de 5% na velocidade de movimento ao carregar um balde cheio.
+</Callout>
+
+| Marco | Profundidade Necessária | Recompensa | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Raspador de Superfície** | 0-50m | 1.000 Tokens de Bônus | Fácil |
+| **Mergulhador Profundo** | 50-200m | Nova Skin de Balde | Média |
+| **Andarilho do Abismo** | 200-500m | Cubo de Reset da Árvore | Difícil |
+| **Lenda do Lago** | 500m+ | O Telefone Perdido | Extrema |
+
+</Section>
+
+<Section icon={Shield} title="Dicas de Otimização para Farm de Tokens">
+
+Para maximizar sua eficiência com os **itens de drain the lake**, você deve otimizar sua rota. Farmar tokens não é apenas ter o melhor balde; é sobre minimizar o "tempo morto" — o tempo gasto sem coletar nem drenar água.
+
+Jogadores experientes usam uma técnica chamada "Short-Looping" no início do jogo e "Depth-Pushing" no final do jogo. Ao entender a física do dreno de água, você pode se posicionar para minimizar a distância de caminhada entre a fonte de água e o ponto de coleta.
+
+| Método de Farm | Nível Recomendado | Tokens Por Minuto | Nível de Esforço |
+| :--- | :--- | :--- | :--- |
+| **Coleta na Margem** | Nível 1-2 | 50 - 150 | Baixo |
+| **Ciclagem de Meia Profundidade** | Nível 3 | 400 - 800 | Médio |
+| **Dragagem Profunda** | Nível 4-5 | 2.000+ | Alto |
+| **Ganho Passivo AFK** | Qualquer (com nós) | 100 (Estático) | Nenhum |
+
+<Callout type="success" title="O Meta de 2026">
+Os principais jogadores atuais sugerem focar inteiramente nos nós de **Eficiência de Tokens** até atingir 10.000 tokens totais. Este início "ganancioso" permite que você ignore a luta do meio de jogo, saltando direto para o nível do Balde de Ouro.
+</Callout>
+
+Lembre-se sempre de que o lago é dinâmico. À medida que o nível da água cai, o ambiente muda. Itens que antes estavam submersos podem se tornar acessíveis em terra seca, e novos caminhos se abrirão. Fique de olho no elemento da interface "Porcentagem de Drenagem" para saber quando mudar seu local de farm.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o item mais importante em Drain the Lake?",
+    answer: "O Balde é sua ferramenta mais importante, mas a Árvore de Habilidades é o sistema mais importante. Sem melhorar a capacidade e a velocidade do seu balde através da Árvore de Habilidades, você não conseguirá alcançar as seções mais profundas do lago."
+  },
+  {
+    question: "Como consigo mais itens de Drain the Lake rapidamente?",
+    answer: "A maneira mais rápida de obter itens e melhorias é focar na habilidade 'Multiplicador de Tokens' logo no início. Isso aumenta sua renda por viagem, permitindo comprar baldes melhores e desbloquear novos níveis muito mais rápido do que jogadores que focam primeiro na velocidade de movimento."
+  },
+  {
+    question: "Onde está localizado o Telefone Perdido?",
+    answer: "O Telefone Perdido é o item final do jogo e está localizado no fundo do lago (Profundidade 500m+). Você deve drenar uma parte significativa do volume total do lago antes que a área que contém o telefone se torne acessível."
+  },
+  {
+    question: "Existem itens por tempo limitado na versão de 2026?",
+    answer: "Embora a maioria dos itens seja permanente, certos eventos sazonais podem introduzir skins de balde de edição limitada ou boosters temporários de tokens. Verifique a seção de 'Atualizações' do menu do jogo regularmente para se manter informado."
+  }
+]} />
+
+</Section>

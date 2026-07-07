@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia para Iniciantes em Drain the Lake: Progressão & Farm de Tokens",
+  description: "Aprenda o ciclo básico de jogo, otimize as melhorias da sua árvore de habilidades e farme tokens de forma eficiente neste guia completo para iniciantes em Drain the Lake.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0ea5e9/fff?text=Beginner+Guide",
+  date: "2026-07-07",
+  author: "Equipe Wiki de Drain the Lake"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ciclo Principal**: Complete o ciclo básico usando este **guia para iniciantes em drain the lake** para farmar tokens de forma eficiente.
+- **Prioridade de Melhoria**: Priorize a **Capacidade do Balde** logo no início para minimizar o tempo de deslocamento entre a água e os drenos.
+- **Regra de Progressão**: Avance para **níveis mais profundos do lago** apenas quando sua configuração atual estiver funcionando de forma confortável.
+- **Farm de Tokens**: Foque em **rotas curtas** em vez de fazer longos desvios para obter o máximo de eficiência.
+</Callout>
+
+<Section icon={Sparkles} title="Ciclo de Jogo Principal e Mecânicas">
+
+Drain the Lake é uma experiência incremental no Roblox onde seu objetivo principal é recuperar um celular perdido que está no fundo de um lago profundo. Para conseguir isso, você deve esvaziar sistematicamente a água do lago, ganhar tokens, melhorar seus equipamentos e desbloquear zonas mais profundas. A jogabilidade depende fortemente da repetição de um ciclo altamente otimizado de coletar água, drená-la e gastar a moeda em melhorias permanentes.
+
+Entender as mecânicas de coleta de água é crucial para o sucesso inicial. Quando você começa o jogo, está equipado com um balde básico que possui capacidade limitada. Caminhar até a fonte de água enche seu balde automaticamente. Uma vez cheio, você deve retornar ao ponto de drenagem central para depositar a água. Drenar a água a converte diretamente em tokens, que são usados para desbloquear nós na sua árvore de habilidades.
+
+<Callout type="warning" title="Armadilha de Progressão">
+Não tente explorar áreas profundas imediatamente. Caminhar longas distâncias com um balde de baixa capacidade reduz significativamente a sua eficiência de tokens por minuto.
+</Callout>
+
+Para ajudar a visualizar a estrutura básica do ciclo, revise a tabela abaixo que descreve cada fase do ciclo de jogo principal e sua métrica primária.
+
+|Fase|Ação|Recompensa Primária|Métrica-Chave|
+|---|---|---|---|
+|**Coleta**|Encher o balde na fonte de água|Volume de água|Velocidade de preenchimento|
+|**Drenagem**|Esvaziar o balde no ponto de dreno|**Tokens**|Eficiência de drenagem|
+|**Melhoria**|Gastar tokens na Árvore de Habilidades|Bônus permanentes|Custo em tokens|
+|**Exploração**|Descer para áreas mais profundas|Novas zonas|Profundidade alcançada|
+
+Cada ciclo desse loop aumenta sua capacidade de lidar com volumes maiores de água. À medida que ganha mais tokens, a distância que você consegue cobrir aumenta, permitindo que se aventure mais fundo no leito do lago sem sacrificar seu potencial de ganho.
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades de Melhoria da Árvore de Habilidades">
+
+A árvore de habilidades é a base da progressão a longo prazo no jogo. Gastar seus tokens aleatoriamente diminuirá seu progresso. Em vez disso, você deve focar em melhorar ramificações específicas da árvore de habilidades que reduzem diretamente o tempo necessário para completar uma única rodada. A árvore é dividida em capacidade, velocidade de coleta, multiplicadores de tokens e acesso à profundidade.
+
+Para maximizar sua eficiência, você deve priorizar as melhorias que resolvem seus gargalos imediatos. Por exemplo, se você passa mais tempo caminhando do que enchendo, sua capacidade está muito baixa. Por outro lado, se você enche seu balde instantaneamente, mas ganha pouquíssimos tokens, precisa investir em eficiência de tokens.
+
+<Callout type="tip" title="Estratégia de Melhoria">
+Sempre priorize a Capacidade do Balde em relação à Eficiência de Coleta no início do jogo. Carregar mais água por viagem é mais valioso do que encher um balde minúsculo mais rápido.
+</Callout>
+
+Aqui está uma descrição dos principais caminhos de melhoria disponíveis na árvore de habilidades:
+
+<CardGrid cols={2}>
+  <Card title="Capacidade do Balde">
+    - **Reduz a frequência de viagens**
+    - Aumenta a carga máxima de água
+    - Essencial para exploração profunda
+  </Card>
+  <Card title="Eficiência de Coleta">
+    - **Acelera a coleta de água**
+    - Reduz o tempo gasto na fonte de água
+    - Melhor quando combinado com baldes grandes
+  </Card>
+  <Card title="Eficiência de Tokens">
+    - **Multiplica o ganho de tokens**
+    - Aumenta o valor por unidade de água
+    - Acelera a progressão no meio do jogo
+  </Card>
+  <Card title="Progressão de Profundidade">
+    - **Desbloqueia áreas mais profundas**
+    - Concede acesso a novas fontes de água
+    - Necessário para alcançar o celular perdido
+  </Card>
+</CardGrid>
+
+Para planejar seus investimentos na árvore de habilidades, consulte a matriz de prioridades abaixo, que classifica cada categoria de melhoria com base em seu impacto geral na progressão.
+
+|Nome da Habilidade|Prioridade|Melhor Fase|Impacto|
+|---|---|---|---|
+|**Capacidade do Balde**|★★★★★|Início do Jogo|Reduz a frequência de viagens|
+|**Eficiência de Coleta**|★★★★☆|Início/Meio do Jogo|Acelera a coleta de água|
+|**Eficiência de Tokens**|★★★★★|Meio do Jogo|Aumenta o rendimento de tokens por dreno|
+|**Progressão de Profundidade**|★★★☆☆|Fim do Jogo|Desbloqueia zonas de exploração mais profundas|
+
+Ao estruturar suas melhorias de acordo com esta matriz, você garante que cada token gasto se traduza diretamente em tempos de execução mais rápidos e rendimentos mais altos.
+
+</Section>
+
+<Section icon={Map} title="Guia de Progressão Passo a Passo">
+
+Navegar desde o seu primeiro balde até as profundezas mais baixas do lago exige uma abordagem estruturada. Avançar com pressa sem as melhorias adequadas resultará em progressão lenta e desperdício de tempo. Siga este caminho de progressão passo a passo para chegar ao fundo do lago de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Estabeleça o Ciclo Básico">
+    Comece coletando água na parte mais rasa do lago. Fique perto do ponto de dreno para minimizar o tempo de viagem. Repita esse processo até acumular tokens suficientes para comprar suas três primeiras melhorias na árvore de habilidades.
+  </Step>
+  <Step num="2" title="Maximize Sua Capacidade">
+    Foque todos os seus tokens iniciais em melhorar a capacidade do seu balde. Não se afaste muito da área inicial até que seu balde possa conter pelo menos cinco vezes o volume inicial. Isso garante que você faça menos viagens de volta ao dreno.
+  </Step>
+  <Step num="3" title="Desbloqueie as Zonas do Meio do Lago">
+    Assim que sua capacidade e eficiência de tokens estiverem equilibradas, comece a avançar para a área do meio do lago. As fontes de água aqui rendem mais tokens por dreno, mas exigem tempos de viagem mais longos. Ajuste sua rota para evitar obstáculos.
+  </Step>
+  <Step num="4" title="Otimize para o Abismo">
+    Antes de entrar na parte mais profunda do lago, maximize suas melhorias de eficiência de tokens. Você precisará de uma reserva massiva de tokens para desbloquear os requisitos finais de profundidade e recuperar o celular perdido com segurança.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta de Marco">
+Alcançar uma capacidade de 10 unidades marca a transição do início do jogo para o meio do jogo. Neste ponto, sua taxa de geração de tokens irá dobrar.
+</Callout>
+
+To help track your progress, refer to the progression milestone table below, which details the recommended upgrades and token goals for each stage of the game.
+
+|Marco|Melhorias Alvo|Meta de Tokens|Recompensa-Chave|
+|---|---|---|---|
+|**Primeiro Dreno**|Balde Básico|10 Tokens|Primeiro Ponto de Habilidade|
+|**Meio do Lago**|Capacidade Nível 5|500 Tokens|Acesso à Zona 2|
+|**Lago Profundo**|Capacidade Nível 10|2.500 Tokens|Acesso à Zona 3|
+|**Abismo**|Capacidade Máxima & Bônus de Tokens|10.000 Tokens|**Recuperação do Celular Perdido**|
+
+Use esses marcos como uma lista de verificação para avaliar se seu personagem está pronto para avançar para a próxima zona.
+
+</Section>
+
+<Section icon={Target} title="Otimização do Farm de Tokens">
+
+Farmar tokens de forma eficiente é a chave para completar o jogo rapidamente. A velocidade com que você ganha tokens é determinada pela seleção de rotas, velocidade de movimento e capacidade do balde. Jogadores experientes projetam rotas de farm específicas que minimizam o tempo de inatividade e maximizam o volume de água entregue ao dreno por minuto.
+
+Ao farmar, sempre procure o caminho mais curto entre a borda da água e o dreno. Evite fazer desvios ou pular obstáculos desnecessários, pois essas ações desperdiçam segundos valiosos. Ao longo de sessões de jogo longas, economizar até mesmo dois segundos por viagem pode resultar em milhares de tokens extras.
+
+<Callout type="info" title="Dica de Farm">
+Se uma nova zona estiver muito distante, geralmente é mais eficiente farmar na zona anterior mais rapidamente até que você possa pagar por uma melhoria de velocidade de movimento ou de capacidade.
+</Callout>
+
+Para comparar a eficiência de diferentes rotas de farm, revise os dados abaixo.
+
+|Tipo de Rota|Distância de Viagem|Tempo Médio do Ciclo|Proporção de Rendimento de Tokens|
+|---|---|---|---|
+|**Rota Curta**|Curta|**Rápido**|Alta eficiência|
+|**Rota Média**|Média|Moderado|Rendimento equilibrado|
+|**Rota Profunda**|Longa|Lento|Baixo sem melhorias|
+
+Como mostrado na tabela, a rota curta continua sendo a escolha mais eficiente até que sua capacidade seja alta o suficiente para justificar os longos tempos de viagem da rota profunda.
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação Essencial e Dicas">
+
+Para garantir que você está progredindo em um ritmo ideal, fique de olho no seu caminho de melhorias e nos hábitos de farm. Pequenos erros na sua estratégia podem levar a um grinding desnecessário. Use a lista de verificação abaixo para se manter no caminho certo.
+
+<Callout type="warning" title="Verificação de Eficiência">
+Calcule regularmente seus tokens ganhos por minuto. Se seus ganhos caírem após se mover para uma zona mais profunda, retorne à zona anterior imediatamente.
+</Callout>
+
+<Checklist
+  id="beginner-progression-goals"
+  title="Metas de Progressão para Iniciantes:"
+  items={[
+    "Melhore a Capacidade do Balde para o Nível 5 antes de explorar zonas mais profundas",
+    "Invista em Eficiência de Tokens para multiplicar seus ganhos por rodada",
+    "Estabeleça uma rota de farm curta e livre de obstáculos perto do dreno",
+    "Evite guardar tokens para melhorias caras de fim de jogo logo no início",
+    "Verifique se sua velocidade de coleta corresponde às suas melhorias de capacidade"
+  ]}
+/>
+
+Seguir essas metas manterá sua progressão fluida e evitará que você encontre barreiras nas zonas de meio de jogo.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Esta seção aborda as perguntas mais comuns que os jogadores fazem ao iniciar sua jornada para esvaziar o lago.
+
+<Callout type="tip" title="Ajuda da Comunidade">
+Se você ficar travado, verifique a descrição da página oficial do jogo no Roblox para obter informações sobre alterações recentes de equilíbrio e ajustes de jogabilidade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o objetivo principal deste guia para iniciantes em drain the lake?",
+    answer: "Este guia foi projetado para ajudar os jogadores a otimizarem sua progressão no início do jogo, entenderem o ciclo básico de drenagem de água e identificarem os caminhos de melhoria mais eficientes na árvore de habilidades."
+  },
+  {
+    question: "Qual melhoria da árvore de habilidades devo comprar primeiro?",
+    answer: "Você deve sempre priorizar a Capacidade do Balde primeiro. Aumentar a quantidade de água que você pode carregar reduz o número de viagens necessárias até o dreno, que é o maior gargalo no início do jogo."
+  },
+  {
+    question: "Quando é o melhor momento para mudar para uma zona mais profunda?",
+    answer: "Mude para uma zona mais profunda apenas quando a capacidade do seu balde e a velocidade de movimento permitirem que você viaje a distância mais longa sem reduzir significativamente sua taxa geral de ganho de tokens por minuto."
+  },
+  {
+    question: "Existem códigos de resgate ativos disponíveis?",
+    answer: "Atualmente não há códigos de resgate públicos verificados disponíveis para o Drain the Lake. O progresso depende inteiramente de completar o ciclo de jogo e melhorar sua árvore de habilidades."
+  }
+]} />
+
+</Section>

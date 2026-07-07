@@ -1,11 +1,528 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Drain the Lake - Códigos, Upgrades e Finais",
+      "description": "A Wiki de Drain the Lake cobre códigos, upgrades de balde, a árvore de habilidades, ciclos de drenagem, tokens, finais e dicas para o jogo do Roblox onde você drena o lago para recuperar seu telefone perdido.",
+      "keywords": "Drain the Lake, wiki de Drain the Lake, códigos de Drain the Lake, upgrades de balde, árvore de habilidades, ciclos de drenagem, Roblox, tokens, finais",
+      "ogTitle": "Wiki de Drain the Lake - Códigos, Upgrades e Finais",
+      "ogDescription": "A Wiki de Drain the Lake cobre códigos, upgrades de balde, a árvore de habilidades, ciclos de drenagem, tokens, finais e dicas para o jogo do Roblox onde você drena o lago para recuperar seu telefone perdido.",
+      "twitterTitle": "Wiki de Drain the Lake - Códigos, Upgrades e Finais",
+      "twitterDescription": "A Wiki de Drain the Lake cobre códigos, upgrades de balde, ciclos de drenagem, tokens, finais e dicas para o simulador de drenagem de lago do Roblox."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "codes": "Codes",
+    "guide": "Guia",
+    "codes": "Códigos",
     "tokens": "Tokens",
     "upgrades": "Upgrades",
-    "levels": "Levels",
-    "items": "Items",
-    "locations": "Locations"
+    "levels": "Níveis",
+    "items": "Itens",
+    "locations": "Locais"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador de Drenagem de Lago do Roblox",
+    "title": "Wiki de Drain the Lake",
+    "description": "Encha seu balde, drene o lago, ganhe tokens e melhore sua Árvore de Habilidades para mergulhar mais fundo e recuperar seu telefone perdido em Drain the Lake no Roblox.",
+    "getFreeCodesCTA": "Ler Guia para Iniciantes",
+    "playOnSteamCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "14,7 mil",
+        "label": "Jogadores Ativos"
+      },
+      "stat2": {
+        "value": "7M+",
+        "label": "Total de Visitas"
+      },
+      "stat3": {
+        "value": "94%",
+        "label": "Avaliação de Gostei"
+      },
+      "stat4": {
+        "value": "3 de jun. de 2026",
+        "label": "Data de Lançamento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Drain the Lake",
+    "description": "Encha seu balde, drene água para ganhar tokens, melhore sua Skill Tree e mergulhe mais fundo para recuperar seu celular perdido nesta aventura de drenagem de lago no Roblox."
+  },
+  "tools": {
+    "title": "Drain the Lake",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para coletar água, ganhar tokens, melhorar sua Skill Tree e recuperar seu celular perdido em Drain the Lake.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Iniciante de Drain the Lake",
+        "description": "Loop principal de jogabilidade e primeiros passos"
+      },
+      {
+        "icon": "Network",
+        "title": "Guia da Skill Tree de Drain the Lake",
+        "description": "Prioridades de melhoria e melhores habilidades"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guia de Tokens de Drain the Lake",
+        "description": "Maneiras mais rápidas de ganhar tokens"
+      },
+      {
+        "icon": "Package",
+        "title": "Guia de Itens de Drain the Lake",
+        "description": "Baldes, tokens e objetivos principais"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guia de Progressão de Drain the Lake",
+        "description": "Do início do jogo ao fundo do lago"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Dicas e Truques de Drain the Lake",
+        "description": "Otimize seu loop de drenagem"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações de Drain the Lake",
+        "description": "Últimos marcos e mudanças"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "FAQ de Drain the Lake",
+        "description": "Perguntas e respostas comuns"
+      }
+    ]
+  },
+  "modules": {
+    "drainTheLakeBeginner": {
+      "eyebrow": "Primeiros Passos",
+      "title": "Como Jogar Drain the Lake",
+      "subtitle": "Aprenda o loop principal de jogabilidade e entenda como progredir de forma constante desde sua primeira sessão.",
+      "intro": "Drain the Lake é uma experiência incremental no Roblox onde seu objetivo é recuperar seu celular perdido no fundo do lago. Cada rodada gira em torno de coletar água, drená-la para ganhar tokens, melhorar sua Skill Tree e alcançar áreas mais profundas com mais eficiência.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Encha seu Balde",
+          "description": "Colete água usando seu balde. Esta é a primeira ação em cada ciclo de progressão."
+        },
+        {
+          "step": 2,
+          "title": "Drene Água por Tokens",
+          "description": "Esvazie a água coletada no ponto de drenagem para ganhar tokens, a principal moeda de progressão."
+        },
+        {
+          "step": 3,
+          "title": "Upgrade the Skill Tree",
+          "description": "Gaste os tokens ganhos em melhorias na Skill Tree para aumentar a eficiência antes de tentar alcançar áreas mais profundas."
+        },
+        {
+          "step": 4,
+          "title": "Vá Mais Fundo",
+          "description": "Continue desbloqueando e explorando seções mais profundas do lago à medida que suas melhorias aprimoram seu desempenho."
+        },
+        {
+          "step": 5,
+          "title": "Repita o ciclo",
+          "description": "Continue repetindo o ciclo de coletar, drenar, melhorar e explorar até que você finalmente alcance seu celular perdido."
+        }
+      ],
+      "quickTips": [
+        "Mantenha sua rota entre a fonte de água e o ponto de drenagem o mais curta possível.",
+        "Gaste seus primeiros tokens na melhoria que mais desacelera seu ciclo.",
+        "Evite correr para áreas mais profundas antes que suas melhorias possam aguentar o tempo de viagem mais longo.",
+        "Reinvista tokens na Árvore de Habilidades a cada poucas rodadas para manter a progressão fluida."
+      ]
+    },
+    "drainTheLakeSkillTree": {
+      "eyebrow": "Progressão",
+      "title": "Prioridades de Melhoria da Árvore de Habilidades de Drain the Lake",
+      "subtitle": "A Árvore de Habilidades impulsiona quase toda a progressão de longo prazo. Investir em melhorias que aprimoram seu ciclo de jogabilidade leva a um progresso geral mais rápido.",
+      "intro": "Em vez de economizar cada token para melhorias caras, melhore as partes do ciclo de jogabilidade que mais atrasam você. Uma eficiência melhor significa que cada rodada futura se tornará mais recompensadora.",
+      "cards": [
+        {
+          "title": "Capacidade do Balde",
+          "description": "Aumente a quantidade de água que você pode carregar antes de voltar para drená-la.",
+          "bestFor": "Reduzindo viagens repetidas"
+        },
+        {
+          "title": "Eficiência de Coleta",
+          "description": "Melhore a rapidez com que você coleta água durante cada rodada.",
+          "bestFor": "Farming mais rápido"
+        },
+        {
+          "title": "Eficiência de Tokens",
+          "description": "Aumente o valor geral obtido ao repetir o ciclo de drenagem.",
+          "bestFor": "Progressão de longo prazo"
+        },
+        {
+          "title": "Progressão de Profundidade",
+          "description": "Desbloqueie ou apoie o progresso em seções mais profundas do lago após fortalecer suas melhorias básicas.",
+          "bestFor": "Meio e fim de jogo"
+        }
+      ]
+    },
+    "drainTheLakeTokens": {
+      "eyebrow": "Moeda",
+      "title": "Melhores Maneiras de Ganhar Tokens de Drain the Lake",
+      "subtitle": "Tokens são a moeda principal usada para progressão e melhorias da Árvore de Habilidades.",
+      "intro": "O farming eficiente de tokens vem da melhoria do seu ciclo de coleta, em vez de correr para áreas difíceis. Melhorias contínuas permitem que cada rodada se torne mais rápida e lucrativa.",
+      "rows": [
+        {
+          "method": "Complete o ciclo de encher e drenar",
+          "purpose": "Renda primária de tokens",
+          "efficiency": "Progressão principal"
+        },
+        {
+          "method": "Melhore a Árvore de Habilidades regularmente",
+          "purpose": "Aumente a eficiência de farming a longo prazo",
+          "efficiency": "Alta"
+        },
+        {
+          "method": "Avance mais fundo após melhorar",
+          "purpose": "Acesse a progressão contínua",
+          "efficiency": "Média a Alta"
+        },
+        {
+          "method": "Evite viagens longas com pouca capacidade",
+          "purpose": "Reduza o tempo desperdiçado entre as drenagens",
+          "efficiency": "Melhora o farming geral"
+        }
+      ]
+    },
+    "drainTheLakeItems": {
+      "eyebrow": "Equipamento",
+      "title": "Itens e Objetivos de Drain the Lake",
+      "subtitle": "Entenda os principais objetos com os quais você interagirá ao progredir pelo lago.",
+      "intro": "Drain the Lake foca em um sistema de progressão simples construído em torno de alguns objetos de jogabilidade principais. Aprender como cada um se encaixa no loop de jogabilidade torna a progressão muito mais suave.",
+      "cards": [
+        {
+          "title": "Balde",
+          "description": "Sua ferramenta primária para coletar e transportar água ao longo do jogo."
+        },
+        {
+          "title": "Tokens",
+          "description": "A principal moeda de progressão obtida ao drenar a água coletada."
+        },
+        {
+          "title": "Árvore de Habilidades",
+          "description": "O sistema de melhoria permanente onde os tokens obtidos são investidos."
+        },
+        {
+          "title": "Telefone Perdido",
+          "description": "O objetivo final escondido nas profundezas do lago que os jogadores tentam recuperar."
+        }
+      ]
+    },
+    "drainTheLakeProgression": {
+      "eyebrow": "Progressão",
+      "title": "Progressão em Drain the Lake: Do Primeiro Balde ao Fundo",
+      "subtitle": "Siga um caminho de melhoria eficiente para obter tokens mais rápido e desbloquear áreas mais profundas com menos reinicializações desperdiçadas.",
+      "intro": "Drain the Lake é construído em torno da repetição de um loop de jogabilidade simples: encher seu balde, drenar água para obter tokens, melhorar sua Árvore de Habilidades e avançar mais fundo onde a progressão continua. As seções abaixo esboçam um caminho de progressão prático baseado nas mecânicas principais do jogo.",
+      "items": [
+        {
+          "title": "Início do Jogo",
+          "content": "Aprenda a rota mais curta entre a fonte de água e o ponto de drenagem. Gaste seus primeiros tokens em melhorias que reduzam a parte mais lenta do seu loop, em vez de economizar para melhorias caras."
+        },
+        {
+          "title": "Meio do Jogo",
+          "content": "Quando seu loop básico de coleta parecer consistente, continue investindo em melhorias na Árvore de Habilidades que aprimorem a eficiência geral antes de tentar áreas significativamente mais profundas."
+        },
+        {
+          "title": "Fim do Jogo",
+          "content": "Avance mais fundo apenas depois que sua rota atual puder ser concluída confortavelmente. À medida que novas profundidades aumentam a distância de viagem, continue refinando seu caminho de melhoria para manter uma renda de tokens eficiente."
+        },
+        {
+          "title": "Progresso a Longo Prazo",
+          "content": "Identifique regularmente o maior gargalo no seu loop de jogabilidade, seja movimento, enchimento, capacidade ou geração de tokens, e priorize melhorias que resolvam essa limitação específica."
+        }
+      ]
+    },
+    "drainTheLakeTips": {
+      "eyebrow": "Otimização",
+      "title": "Dicas Úteis para Drenar o Lago Mais Rápido",
+      "subtitle": "Pequenas melhorias no seu loop de jogabilidade podem aumentar significativamente a renda de tokens ao longo de longas sessões de jogo.",
+      "intro": "Jogadores experientes geralmente focam em melhorar a eficiência em vez de simplesmente fazer grind por mais tempo. Estas dicas práticas ajudam a reduzir movimentos desperdiçados e a melhorar a velocidade geral de progressão.",
+      "items": [
+        {
+          "title": "Mantenha Sua Rota Curta",
+          "content": "Escolha o caminho confortável mais curto entre encher e drenar, em vez de fazer desvios desnecessários."
+        },
+        {
+          "title": "Melhore os Gargalos Primeiro",
+          "content": "Evite comprar melhorias aleatoriamente. Identifique qual parte do seu loop atual parece mais lenta e melhore-a primeiro."
+        },
+        {
+          "title": "Não Tenha Pressa para Ir a Novas Profundidades",
+          "content": "Entrar em áreas mais profundas cedo demais pode reduzir a eficiência geral se suas melhorias não puderem suportar o aumento no tempo de viagem."
+        },
+        {
+          "title": "Revise Seu Loop Regularmente",
+          "content": "Após comprar várias melhorias, reavalie sua rota e ajuste suas prioridades à medida que diferentes gargalos se tornem mais perceptíveis."
+        }
+      ]
+    },
+    "drainTheLakeUpdates": {
+      "eyebrow": "Notícias",
+      "title": "Atualizações Recentes de Drain the Lake",
+      "subtitle": "Acompanhe marcos importantes e mudanças recentes que afetam a jogabilidade.",
+      "intro": "A linha do tempo abaixo destaca atualizações visíveis publicamente e marcos importantes do jogo aos quais os jogadores comumente se referem ao retornar ao jogo.",
+      "entries": [
+        {
+          "date": "Junho de 2026",
+          "title": "Lançamento do Jogo",
+          "description": "Drain the Lake foi lançado no Roblox com seu ciclo principal de jogabilidade de encher baldes, drenar água para obter tokens, aprimorar a Skill Tree e progredir para recuperar o telefone perdido."
+        },
+        {
+          "date": "Julho de 2026",
+          "title": "Base de Jogadores em Crescimento",
+          "description": "O jogo alcançou rapidamente milhões de visitas e manteve uma forte atividade de jogadores após o lançamento."
+        },
+        {
+          "date": "Em andamento",
+          "title": "Melhorias na Jogabilidade",
+          "description": "A experiência continua recebendo atualizações pelo Roblox, com balanceamento de jogabilidade e melhorias adicionais lançadas ao longo do tempo."
+        }
+      ]
+    },
+    "drainTheLakeFaq": {
+      "eyebrow": "Ajuda",
+      "title": "FAQ de Drain the Lake: Perguntas Frequentes",
+      "subtitle": "Respostas rápidas para perguntas comuns sobre a progressão, melhorias e jogabilidade de Drain the Lake.",
+      "intro": "Estas respostas cobrem as perguntas que a maioria dos jogadores novos e antigos fazem enquanto aprendem o sistema de progressão de Drain the Lake.",
+      "items": [
+        {
+          "question": "Qual é o objetivo principal em Drain the Lake?",
+          "answer": "Seu objetivo em Drain the Lake é esvaziar o lago coletando água repetidamente, ganhando tokens, aprimorando sua Skill Tree, progredindo para áreas mais profundas e, por fim, recuperando seu telefone perdido."
+        },
+        {
+          "question": "Como ganho mais tokens em Drain the Lake?",
+          "answer": "Complete o ciclo de encher e esvaziar de forma eficiente em Drain the Lake e melhore sua Skill Tree para aumentar sua velocidade de progressão geral."
+        },
+        {
+          "question": "Quando devo ir mais fundo em Drain the Lake?",
+          "answer": "Mude para áreas mais profundas em Drain the Lake depois que seu nível de melhoria atual permitir que você complete sua rota existente de forma confortável e eficiente."
+        },
+        {
+          "question": "Drain the Lake usa uma Skill Tree?",
+          "answer": "Sim. A progressão em Drain the Lake gira em torno de gastar tokens ganhos em melhorias da Skill Tree que aprimoram diferentes partes do ciclo de jogabilidade."
+        },
+        {
+          "question": "Existem códigos de resgate para Drain the Lake?",
+          "answer": "Drain the Lake não possui códigos de resgate públicos disponíveis no momento. Fique de olho na página oficial do jogo no Roblox para futuros lançamentos de códigos."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "FAQ de Drain the Lake",
+    "subtitle": "Tudo o que você precisa saber sobre Drain the Lake",
+    "items": [
+      {
+        "question": "O que é Drain the Lake?",
+        "answer": "Drain the Lake é um jogo incremental do Roblox onde você enche seu balde, drena água para obter tokens, aprimora sua Skill Tree e avança mais fundo para recuperar seu telefone perdido."
+      },
+      {
+        "question": "Como funcionam os tokens em Drain the Lake?",
+        "answer": "Em Drain the Lake, os tokens são obtidos ao drenar a água coletada e depois gastos em melhorias da Skill Tree que aumentam sua progressão geral."
+      },
+      {
+        "question": "Existe multiplayer em Drain the Lake?",
+        "answer": "Drain the Lake é jogado nos servidores do Roblox. Verifique a página oficial do jogo para detalhes atuais sobre multiplayer e servidores."
+      },
+      {
+        "question": "O que é a Skill Tree em Drain the Lake?",
+        "answer": "A Skill Tree em Drain the Lake é o sistema de melhoria permanente onde você investe tokens ganhos para melhorar a capacidade do balde, a coleta e a progressão de profundidade."
+      },
+      {
+        "question": "Como recupero o telefone perdido em Drain the Lake?",
+        "answer": "Para recuperar o telefone perdido em Drain the Lake, continue melhorando sua Skill Tree e avançando para seções mais profundas do lago até alcançá-lo."
+      },
+      {
+        "question": "Onde posso jogar Drain the Lake?",
+        "answer": "Você pode jogar Drain the Lake diretamente no Roblox através da página oficial do jogo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para o Drain the Lake?",
+    "description": "Entre no Drain the Lake no Roblox e use nossos guias para aprimorar seu balde, planejar seus tokens e recuperar seu telefone rapidamente!",
+    "joinCommunity": "Jogar no Roblox",
+    "joinGame": "Ver Estatísticas do Jogo"
+  },
+  "footer": {
+    "title": "Wiki de Drain the Lake",
+    "description": "Seu hub de recursos completo para códigos de Drain the Lake, upgrades de balde, árvore de habilidades, ciclos de drenagem, tokens, finais e dicas de Roblox.",
+    "resources": "Recursos",
+    "community": "Jogo",
+    "legal": "Informações Legais",
+    "discord": "Jogue no Roblox",
+    "twitter": "Estatísticas do Jogo",
+    "steamCommunity": "Dicas para Iniciantes",
+    "steamStore": "Guia Passo a Passo Completo",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki de Drain the Lake. Não afiliada aos desenvolvedores de Drain the Lake ou Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Drain the Lake",
+      "description": "Guias completos de Drain the Lake cobrindo o ciclo principal de jogabilidade, guias passo a passo para iniciantes, caminhos de progressão e dicas para drenar o lago de forma eficiente.",
+      "metaTitle": "Guias de Drain the Lake - Passo a Passo, Dicas e Progressão",
+      "metaDescription": "Domine Drain the Lake com guias para iniciantes, passo a passos, caminhos de progressão e dicas para encher seu balde, ganhar tokens e recuperar seu telefone perdido.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são os Guias de Drain the Lake?",
+      "whatIsDescription": "Os guias de Drain the Lake detalham o ciclo principal do jogo de encher seu balde, drenar água para obter tokens, melhorar a Árvore de Habilidades e avançar para áreas mais profundas. Eles guiam você por todas as etapas da progressão, desde o seu primeiro balde até o fundo do lago.",
+      "why": "Por que usar estes guias?",
+      "whySteps": {
+        "step1Title": "Aprenda o ciclo principal",
+        "step1Description": "Entenda o ciclo de encher, drenar e dar upgrade que move cada partida no Drain the Lake.",
+        "step2Title": "Progrida mais rápido",
+        "step2Description": "Siga um caminho de upgrade eficiente para ganhar tokens e desbloquear áreas mais profundas com menos tentativas desperdiçadas.",
+        "step3Title": "Evite erros comuns",
+        "step3Description": "Evite a movimentação desperdiçada e a pressa em descer que atrasam os novos jogadores."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "codes": {
+      "title": "Códigos de Drain the Lake",
+      "description": "Status dos códigos mais recentes de Drain the Lake, como funciona o resgate e no que focar enquanto os códigos não estiverem disponíveis.",
+      "metaTitle": "Códigos de Drain the Lake - Códigos Ativos e Guia de Resgate",
+      "metaDescription": "Confira o status dos códigos mais recentes de Drain the Lake e aprenda como o resgate funciona para que você possa resgatar recompensas gratuitas assim que os códigos estiverem ativos.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "O que são os Códigos de Drain the Lake?",
+      "whatIsDescription": "Os códigos de Drain the Lake são códigos resgatáveis que os desenvolvedores lançam para obter tokens, boosts ou itens gratuitos. Esta página acompanha o status atual dos códigos e explica exatamente como o resgate funcionará assim que os códigos estiverem ativos.",
+      "why": "Por que verificar os códigos regularmente?",
+      "whySteps": {
+        "step1Title": "Garanta novos códigos rapidamente",
+        "step1Description": "Resgate códigos assim que eles forem lançados para nunca perder uma recompensa gratuita.",
+        "step2Title": "Entenda o sistema",
+        "step2Description": "Saiba exatamente como e onde inserir códigos dentro do Drain the Lake.",
+        "step3Title": "Esteja pronto para progredir",
+        "step3Description": "Continue farmando tokens e melhorando sua Skill Tree para progredir enquanto espera por novos códigos."
+      },
+      "featured": "Códigos em Destaque",
+      "all": "Todos os Códigos"
+    },
+    "tokens": {
+      "title": "Tokens do Drain the Lake",
+      "description": "Melhores formas de ganhar tokens do Drain the Lake, incluindo rotas de farm rápido, locais de baús e otimização de recompensas.",
+      "metaTitle": "Tokens do Drain the Lake - Farm Rápido, Baús e Recompensas",
+      "metaDescription": "Aprenda as formas mais rápidas de farmar tokens do Drain the Lake, encontre locais de baús e maximize recompensas para melhorar sua Skill Tree e ir mais fundo.",
+      "categoryLabel": "TOKENS",
+      "whatIs": "O que são os Tokens do Drain the Lake?",
+      "whatIsDescription": "Tokens são a principal moeda de progressão no Drain the Lake, obtidos ao drenar a água coletada. Você gasta tokens em melhorias na Skill Tree que aumentam a capacidade do bucket, velocidade de coleta e progressão de profundidade.",
+      "why": "Por que farmar tokens de forma eficiente?",
+      "whySteps": {
+        "step1Title": "Acelere a progressão",
+        "step1Description": "Mais tokens por rodada significam melhorias na Skill Tree mais rápidas e mergulhos mais profundos.",
+        "step2Title": "Encontre baús escondidos",
+        "step2Description": "Localize baús e pontos de recompensa que dão tokens bônus por todo o lago.",
+        "step3Title": "Otimize sua rota",
+        "step3Description": "Reduza o movimento desperdiçado entre a fonte de água e o ponto de drenagem."
+      },
+      "featured": "Guias de Tokens em Destaque",
+      "all": "Todos os Guias de Tokens"
+    },
+    "upgrades": {
+      "title": "Upgrades do Drain the Lake",
+      "description": "Guias de melhorias do Drain the Lake cobrindo a Skill Tree, melhores upgrades, melhorias de bucket e de backpack para uma progressão eficiente.",
+      "metaTitle": "Upgrades do Drain the Lake - Skill Tree, Bucket e Melhores Upgrades",
+      "metaDescription": "Domine os upgrades do Drain the Lake com prioridades na Skill Tree, melhorias de bucket e de backpack que aceleram o farm de tokens e a progressão de profundidade.",
+      "categoryLabel": "UPGRADES",
+      "whatIs": "O que são os Upgrades do Drain the Lake?",
+      "whatIsDescription": "Os upgrades do Drain the Lake são investimentos permanentes na Skill Tree que melhoram cada parte do seu gameplay, desde a capacidade do bucket e velocidade de coleta até o tamanho da backpack e progressão de profundidade.",
+      "why": "Por que fazer upgrades estrategicamente?",
+      "whySteps": {
+        "step1Title": "Corrija seu gargalo",
+        "step1Description": "Identifique a parte mais lenta do seu ciclo e melhore-a primeiro para obter os maiores ganhos.",
+        "step2Title": "Construa uma Skill Tree forte",
+        "step2Description": "Priorize a capacidade do bucket e a eficiência de tokens no início para uma progressão mais suave.",
+        "step3Title": "Aumente a backpack e a profundidade",
+        "step3Description": "Expanda sua backpack e desbloqueie áreas mais profundas à medida que sua renda de tokens aumenta."
+      },
+      "featured": "Guias de Upgrades em Destaque",
+      "all": "Todos os Guias de Upgrades"
+    },
+    "levels": {
+      "title": "Níveis do Drain the Lake",
+      "description": "Guia de áreas e níveis do lago de Drain the Lake, cobrindo profundidades, requisitos de desbloqueio e como alcançar o nível mais profundo.",
+      "metaTitle": "Níveis de Drain the Lake - Profundidades do Lago, Áreas e Guia de Desbloqueio",
+      "metaDescription": "Explore as áreas e níveis de Drain the Lake, aprenda os requisitos de desbloqueio para cada profundidade e descubra como alcançar o nível mais profundo do lago.",
+      "categoryLabel": "NÍVEIS",
+      "whatIs": "O que são os Níveis de Drain the Lake?",
+      "whatIsDescription": "Os níveis de Drain the Lake são as etapas de profundidade do lago que você desbloqueia à medida que sua Árvore de Habilidades e seus equipamentos melhoram. Cada nível abre novas áreas, rotas mais longas e progressão em direção ao seu telefone perdido.",
+      "why": "Por que entender o sistema de níveis?",
+      "whySteps": {
+        "step1Title": "Desbloqueie na ordem certa",
+        "step1Description": "Saiba quais profundidades abrem a seguir e o que cada novo nível exige.",
+        "step2Title": "Avance mais fundo com segurança",
+        "step2Description": "Planeje seus avanços de profundidade de acordo com seu nível atual de melhoria para manter a eficiência.",
+        "step3Title": "Alcance o nível mais profundo",
+        "step3Description": "Siga um caminho claro da superfície até o fundo do lago."
+      },
+      "featured": "Guias de Nível em Destaque",
+      "all": "Todos os Guias de Nível"
+    },
+    "items": {
+      "title": "Itens de Drain the Lake",
+      "description": "Guia de ferramentas e itens de Drain the Lake, cobrindo o balde, equipamentos e objetos importantes que você usa ao drenar o lago.",
+      "metaTitle": "Itens de Drain the Lake - Guia de Baldes, Ferramentas e Equipamentos",
+      "metaDescription": "Conheça cada item e ferramenta de Drain the Lake, incluindo o balde, equipamentos e objetos principais que impulsionam sua progressão até o fundo do lago.",
+      "categoryLabel": "ITENS",
+      "whatIs": "O que são os Itens de Drain the Lake?",
+      "whatIsDescription": "Os itens de Drain the Lake são as ferramentas e equipamentos que você usa para coletar água, transportá-la e progredir mais fundo, incluindo seu balde, mochila e melhorias da Árvore de Habilidades.",
+      "why": "Por que conhecer os itens?",
+      "whySteps": {
+        "step1Title": "Use o balde com sabedoria",
+        "step1Description": "Entenda como a capacidade do balde define cada rodada que você faz.",
+        "step2Title": "Pick the right equipment",
+        "step2Description": "Combine suas ferramentas com sua profundidade e rota atuais para obter o máximo de eficiência.",
+        "step3Title": "Acompanhe os objetivos principais",
+        "step3Description": "Mantenha o telefone perdido e os itens principais em vista enquanto avança em direção ao fundo."
+      },
+      "featured": "Guias de Itens em Destaque",
+      "all": "Todos os Guias de Itens"
+    },
+    "locations": {
+      "title": "Locais de Drain the Lake",
+      "description": "Guia de locais de Drain the Lake cobrindo cavernas, cavernas secretas, áreas ocultas e colecionáveis espalhados pelo lago.",
+      "metaTitle": "Locais de Drain the Lake - Cavernas, Segredos e Colecionáveis",
+      "metaDescription": "Descubra os locais de Drain the Lake, incluindo cavernas, cavernas secretas, áreas ocultas e colecionáveis para explorar totalmente o lago e recuperar seu telefone perdido.",
+      "categoryLabel": "LOCAIS",
+      "whatIs": "O que são os Locais de Drain the Lake?",
+      "whatIsDescription": "Os locais de Drain the Lake são as cavernas, áreas secretas e pontos de colecionáveis escondidos pelo lago. Explorá-los concede tokens, itens de progressão e pistas sobre o seu telefone perdido.",
+      "why": "Por que explorar cada local?",
+      "whySteps": {
+        "step1Title": "Encontre cavernas secretas",
+        "step1Description": "Localize cavernas escondidas que recompensam com tokens extras e itens úteis.",
+        "step2Title": "Colete colecionáveis",
+        "step2Description": "Rastreie colecionáveis espalhados por todas as profundidades do lago.",
+        "step3Title": "Desbloqueie áreas escondidas",
+        "step3Description": "Alcance áreas escondidas que aceleram sua progressão geral."
+      },
+      "featured": "Guias de Locais em Destaque",
+      "all": "Todos os Guias de Locais"
+    }
   }
 }

@@ -1,11 +1,528 @@
 {
+  "seo": {
+    "home": {
+      "title": "Drain the Lake Wiki - Codes, améliorations & fins",
+      "description": "Drain the Lake Wiki présente les codes, les améliorations de seau, l'arbre de compétences, les cycles de vidange, les jetons, les fins et les astuces pour le jeu Roblox où vous videz le lac pour récupérer votre téléphone perdu.",
+      "keywords": "Drain the Lake, Drain the Lake wiki, codes Drain the Lake, améliorations de seau, arbre de compétences, cycles de vidange, Roblox, jetons, fins",
+      "ogTitle": "Drain the Lake Wiki - Codes, améliorations & fins",
+      "ogDescription": "Drain the Lake Wiki présente les codes, les améliorations de seau, l'arbre de compétences, les cycles de vidange, les jetons, les fins et les astuces pour le jeu Roblox où vous videz le lac pour récupérer votre téléphone perdu.",
+      "twitterTitle": "Drain the Lake Wiki - Codes, améliorations & fins",
+      "twitterDescription": "Drain the Lake Wiki présente les codes, les améliorations de seau, les cycles de vidange, les jetons, les fins et les astuces pour le simulateur de vidange de lac Roblox."
+    }
+  },
   "nav": {
     "guide": "Guide",
     "codes": "Codes",
-    "tokens": "Tokens",
-    "upgrades": "Upgrades",
-    "levels": "Levels",
-    "items": "Items",
-    "locations": "Locations"
+    "tokens": "Jetons",
+    "upgrades": "Améliorations",
+    "levels": "Niveaux",
+    "items": "Objets",
+    "locations": "Lieux"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Roblox",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles associés",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles bientôt disponibles"
+  },
+  "hero": {
+    "badge": "Simulateur de vidange de lac Roblox",
+    "title": "Drain the Lake Wiki",
+    "description": "Remplissez votre seau, videz le lac, gagnez des jetons et améliorez votre arbre de compétences pour plonger plus profondément et récupérer votre téléphone perdu dans Drain the Lake sur Roblox.",
+    "getFreeCodesCTA": "Lire le guide du débutant",
+    "playOnSteamCTA": "Jouer sur Roblox",
+    "stats": {
+      "stat1": {
+        "value": "14,7 k",
+        "label": "Joueurs actifs"
+      },
+      "stat2": {
+        "value": "7M+",
+        "label": "Visites totales"
+      },
+      "stat3": {
+        "value": "94 %",
+        "label": "Taux de likes"
+      },
+      "stat4": {
+        "value": "3 juin 2026",
+        "label": "Date de sortie"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Drain the Lake",
+    "description": "Remplissez votre seau, videz l'eau pour obtenir des jetons, améliorez votre Skill Tree et plongez plus profondément pour récupérer votre téléphone perdu dans cette aventure Roblox de vidange de lac."
+  },
+  "tools": {
+    "title": "Drain the Lake",
+    "titleHighlight": "Guides",
+    "subtitle": "Tout ce dont vous avez besoin pour collecter de l'eau, gagner des jetons, améliorer votre Skill Tree et récupérer votre téléphone perdu dans Drain the Lake.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guide du débutant Drain the Lake",
+        "description": "Boucle de gameplay principale et premières étapes"
+      },
+      {
+        "icon": "Network",
+        "title": "Guide du Skill Tree de Drain the Lake",
+        "description": "Priorités d'amélioration et meilleures compétences"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guide des jetons de Drain the Lake",
+        "description": "Les moyens les plus rapides de gagner des jetons"
+      },
+      {
+        "icon": "Package",
+        "title": "Guide des objets de Drain the Lake",
+        "description": "Seaux, jetons et objectifs clés"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guide de progression de Drain the Lake",
+        "description": "Du début du jeu jusqu'au fond du lac"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Trucs et astuces pour Drain the Lake",
+        "description": "Optimisez votre boucle de vidange"
+      },
+      {
+        "icon": "Clock",
+        "title": "Mises à jour de Drain the Lake",
+        "description": "Derniers jalons et changements"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "FAQ de Drain the Lake",
+        "description": "Questions et réponses fréquentes"
+      }
+    ]
+  },
+  "modules": {
+    "drainTheLakeBeginner": {
+      "eyebrow": "Bien démarrer",
+      "title": "Comment jouer à Drain the Lake",
+      "subtitle": "Apprenez la boucle de gameplay principale et comprenez comment progresser régulièrement dès votre première session.",
+      "intro": "Drain the Lake est une expérience Roblox incrémentale où votre objectif est de récupérer votre téléphone perdu au fond du lac. Chaque partie consiste à collecter de l'eau, à la vider pour obtenir des jetons, à améliorer votre Skill Tree et à atteindre des zones plus profondes plus efficacement.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Remplissez votre seau",
+          "description": "Collectez de l'eau à l'aide de votre seau. C'est la première action de chaque cycle de progression."
+        },
+        {
+          "step": 2,
+          "title": "Videz l'eau pour obtenir des jetons",
+          "description": "Videz l'eau collectée au point de vidange pour gagner des jetons, la monnaie de progression principale."
+        },
+        {
+          "step": 3,
+          "title": "Améliorez le Skill Tree",
+          "description": "Dépensez les jetons gagnés dans les améliorations du Skill Tree pour gagner en efficacité avant de tenter d'atteindre des zones plus profondes."
+        },
+        {
+          "step": 4,
+          "title": "Allez plus profond",
+          "description": "Continuez à débloquer et à explorer les sections plus profondes du lac à mesure que vos améliorations améliorent vos performances."
+        },
+        {
+          "step": 5,
+          "title": "Répétez la boucle",
+          "description": "Continuez à répéter le cycle de collecte, de drainage, d'amélioration et d'exploration jusqu'à ce que vous finissiez par atteindre votre téléphone perdu."
+        }
+      ],
+      "quickTips": [
+        "Gardez votre itinéraire entre la source d'eau et le point de drainage aussi court que possible.",
+        "Dépensez vos premiers jetons pour l'amélioration qui ralentit le plus votre boucle.",
+        "Évitez de vous précipiter dans les zones plus profondes avant que vos améliorations ne puissent supporter le temps de trajet plus long.",
+        "Réinvestissez des jetons dans l'arbre de compétences toutes les quelques parties pour maintenir une progression fluide."
+      ]
+    },
+    "drainTheLakeSkillTree": {
+      "eyebrow": "Progression",
+      "title": "Priorités d'amélioration de l'arbre de compétences de Drain the Lake",
+      "subtitle": "L'arbre de compétences alimente presque toute la progression à long terme. Investir dans des améliorations qui améliorent votre boucle de gameplay permet de progresser plus rapidement dans l'ensemble.",
+      "intro": "Au lieu d'économiser chaque jeton pour des améliorations coûteuses, améliorez les parties de la boucle de gameplay qui vous ralentissent le plus. Une meilleure efficacité signifie que chaque partie future devient plus gratifiante.",
+      "cards": [
+        {
+          "title": "Capacité du seau",
+          "description": "Augmentez la quantité d'eau que vous pouvez transporter avant de retourner la vider.",
+          "bestFor": "Réduire les trajets répétés"
+        },
+        {
+          "title": "Efficacité de la collecte",
+          "description": "Améliorez la vitesse à laquelle vous collectez de l'eau lors de chaque partie.",
+          "bestFor": "Collecte plus rapide"
+        },
+        {
+          "title": "Efficacité des jetons",
+          "description": "Augmentez la valeur globale obtenue en répétant le cycle de drainage.",
+          "bestFor": "Progression à long terme"
+        },
+        {
+          "title": "Progression en profondeur",
+          "description": "Débloquez ou soutenez la progression dans les sections plus profondes du lac après avoir renforcé vos améliorations de base.",
+          "bestFor": "Milieu et fin de partie"
+        }
+      ]
+    },
+    "drainTheLakeTokens": {
+      "eyebrow": "Monnaie",
+      "title": "Meilleures façons de gagner des jetons Drain the Lake",
+      "subtitle": "Les jetons sont la monnaie principale utilisée pour la progression et les améliorations de l'arbre de compétences.",
+      "intro": "Une collecte de jetons efficace provient de l'amélioration de votre boucle de collecte plutôt que de vous précipiter dans des zones difficiles. Des améliorations continues permettent à chaque partie de devenir plus rapide et plus rentable.",
+      "rows": [
+        {
+          "method": "Complétez la boucle de remplissage et de vidange",
+          "purpose": "Revenu principal de jetons",
+          "efficiency": "Progression principale"
+        },
+        {
+          "method": "Améliorez régulièrement l'arbre de compétences",
+          "purpose": "Augmentez l'efficacité de la collecte à long terme",
+          "efficiency": "Élevé"
+        },
+        {
+          "method": "Allez plus en profondeur après avoir amélioré",
+          "purpose": "Accédez à une progression continue",
+          "efficiency": "Moyen à élevé"
+        },
+        {
+          "method": "Évitez les longs trajets avec une faible capacité",
+          "purpose": "Réduisez le temps perdu entre les vidanges",
+          "efficiency": "Améliore la collecte globale"
+        }
+      ]
+    },
+    "drainTheLakeItems": {
+      "eyebrow": "Équipement",
+      "title": "Objets et objectifs de Drain the Lake",
+      "subtitle": "Comprenez les principaux objets avec lesquels vous interagirez en progressant dans le lac.",
+      "intro": "Drain the Lake repose sur un système de progression simple construit autour de quelques objets de jeu essentiels. Apprendre comment chacun s'intègre dans la boucle de gameplay rend la progression beaucoup plus fluide.",
+      "cards": [
+        {
+          "title": "Seau",
+          "description": "Votre outil principal pour collecter et transporter l'eau tout au long du jeu."
+        },
+        {
+          "title": "Jetons",
+          "description": "La principale monnaie de progression obtenue en vidant l'eau collectée."
+        },
+        {
+          "title": "Arbre de compétences",
+          "description": "Le système d'amélioration permanente dans lequel les jetons obtenus sont investis."
+        },
+        {
+          "title": "Téléphone perdu",
+          "description": "L'objectif ultime caché plus profondément dans le lac que les joueurs s'efforcent de récupérer."
+        }
+      ]
+    },
+    "drainTheLakeProgression": {
+      "eyebrow": "Progression",
+      "title": "Progression dans Drain the Lake : du premier seau jusqu'au fond",
+      "subtitle": "Suivez un chemin d'amélioration efficace pour gagner des jetons plus rapidement et débloquer des zones plus profondes avec moins de réinitialisations inutiles.",
+      "intro": "Drain the Lake est construit autour de la répétition d'une boucle de gameplay simple : remplir votre seau, vider l'eau pour obtenir des jetons, améliorer votre arbre de compétences, puis progresser plus profondément là où la progression continue. Les sections ci-dessous décrivent un chemin de progression pratique basé sur les mécaniques de base du jeu.",
+      "items": [
+        {
+          "title": "Début de partie",
+          "content": "Apprenez l'itinéraire le plus court entre la source d'eau et le point de vidange. Dépensez vos premiers jetons dans des améliorations qui réduisent la partie la plus lente de votre boucle au lieu d'économiser pour des améliorations coûteuses."
+        },
+        {
+          "title": "Milieu de partie",
+          "content": "Une fois que votre boucle de collecte de base vous semble régulière, continuez à investir dans les améliorations de l'arbre de compétences qui améliorent l'efficacité globale avant de tenter des zones nettement plus profondes."
+        },
+        {
+          "title": "Fin de partie",
+          "content": "N'allez plus en profondeur que lorsque votre itinéraire actuel peut être effectué confortablement. Comme les nouvelles profondeurs augmentent la distance de trajet, continuez à affiner votre chemin d'amélioration pour maintenir un gain de jetons efficace."
+        },
+        {
+          "title": "Progression à long terme",
+          "content": "Identifiez régulièrement le plus grand goulet d'étranglement de votre boucle de gameplay, qu'il s'agisse du déplacement, du remplissage, de la capacité ou de la génération de jetons, et donnez la priorité aux améliorations qui résolvent cette limitation spécifique."
+        }
+      ]
+    },
+    "drainTheLakeTips": {
+      "eyebrow": "Optimisation",
+      "title": "Conseils utiles pour vider le lac plus rapidement",
+      "subtitle": "De petites améliorations de votre boucle de gameplay peuvent augmenter considérablement vos gains de jetons lors des longues sessions de jeu.",
+      "intro": "Les joueurs expérimentés se concentrent généralement sur l'amélioration de l'efficacité plutôt que de simplement farmer plus longtemps. Ces conseils pratiques aident à réduire les déplacements inutiles et à améliorer la vitesse globale de progression.",
+      "items": [
+        {
+          "title": "Gardez votre itinéraire court",
+          "content": "Choisissez le chemin confortable le plus court entre le remplissage et la vidange au lieu de faire des détours inutiles."
+        },
+        {
+          "title": "Améliorez d'abord les goulets d'étranglement",
+          "content": "Évitez d'acheter des améliorations au hasard. Identifiez la partie de votre boucle actuelle qui vous semble la plus lente et améliorez-la en premier."
+        },
+        {
+          "title": "Ne vous précipitez pas vers les nouvelles profondeurs",
+          "content": "Entrer trop tôt dans des zones plus profondes peut réduire l'efficacité globale si vos améliorations ne peuvent pas supporter l'augmentation du temps de trajet."
+        },
+        {
+          "title": "Analysez régulièrement votre boucle",
+          "content": "Après avoir acheté plusieurs améliorations, réévaluez votre itinéraire et ajustez vos priorités à mesure que différents goulets d'étranglement deviennent plus visibles."
+        }
+      ]
+    },
+    "drainTheLakeUpdates": {
+      "eyebrow": "Actualités",
+      "title": "Mises à jour récentes de Drain the Lake",
+      "subtitle": "Suivez les étapes importantes et les changements récents affectant le gameplay.",
+      "intro": "La chronologie ci-dessous met en évidence les mises à jour publiques et les étapes majeures du jeu auxquelles les joueurs se réfèrent couramment lorsqu'ils reviennent sur le jeu.",
+      "entries": [
+        {
+          "date": "Juin 2026",
+          "title": "Lancement du jeu",
+          "description": "Drain the Lake a été lancé sur Roblox avec sa boucle de gameplay principale consistant à remplir des seaux, vider l'eau pour obtenir des jetons, améliorer l'Arbre de compétences et progresser vers la récupération du téléphone perdu."
+        },
+        {
+          "date": "Juillet 2026",
+          "title": "Base de joueurs croissante",
+          "description": "Le jeu a rapidement atteint des millions de visites et a maintenu une forte activité des joueurs après sa sortie."
+        },
+        {
+          "date": "En cours",
+          "title": "Améliorations du gameplay",
+          "description": "L'expérience continue de recevoir des mises à jour via Roblox, avec un équilibrage du gameplay et des améliorations supplémentaires publiées au fil du temps."
+        }
+      ]
+    },
+    "drainTheLakeFaq": {
+      "eyebrow": "Aide",
+      "title": "FAQ Drain the Lake : Foire aux questions",
+      "subtitle": "Réponses rapides aux questions courantes sur la progression, les améliorations et le gameplay de Drain the Lake.",
+      "intro": "Ces réponses couvrent les questions que la plupart des nouveaux joueurs et des joueurs réguliers se posent en apprenant le système de progression de Drain the Lake.",
+      "items": [
+        {
+          "question": "Quel est l'objectif principal dans Drain the Lake ?",
+          "answer": "Votre but dans Drain the Lake est de vider le lac en collectant de l'eau à plusieurs reprises, en gagnant des jetons, en améliorant votre Arbre de compétences, en progressant plus profondément et, finalement, en récupérant votre téléphone perdu."
+        },
+        {
+          "question": "Comment gagner plus de jetons dans Drain the Lake ?",
+          "answer": "Complétez efficacement la boucle de gameplay « remplir et vider » dans Drain the Lake et améliorez votre Arbre de compétences pour augmenter votre vitesse de progression globale."
+        },
+        {
+          "question": "Quand dois-je aller plus profondément dans Drain the Lake ?",
+          "answer": "Déplacez-vous vers des zones plus profondes dans Drain the Lake une fois que votre niveau d'amélioration actuel vous permet de terminer votre itinéraire existant confortablement et efficacement."
+        },
+        {
+          "question": "Est-ce que Drain the Lake utilise un Arbre de compétences ?",
+          "answer": "Oui. La progression dans Drain the Lake s'articule autour de la dépense des jetons gagnés dans les améliorations de l'Arbre de compétences qui améliorent différentes parties de la boucle de gameplay."
+        },
+        {
+          "question": "Existe-t-il des codes promotionnels pour Drain the Lake ?",
+          "answer": "Drain the Lake n'a actuellement aucun code promotionnel public disponible. Surveillez la page officielle du jeu sur Roblox pour toute future sortie de code."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "FAQ Drain the Lake",
+    "subtitle": "Tout ce que vous devez savoir sur Drain the Lake",
+    "items": [
+      {
+        "question": "Qu'est-ce que Drain the Lake ?",
+        "answer": "Drain the Lake est un jeu incrémental sur Roblox où vous remplissez votre seau, videz l'eau pour obtenir des jetons, améliorez votre Arbre de compétences et progressez plus profondément pour récupérer votre téléphone perdu."
+      },
+      {
+        "question": "Comment fonctionnent les jetons dans Drain the Lake ?",
+        "answer": "Dans Drain the Lake, les jetons sont gagnés en vidant l'eau collectée, puis dépensés dans les améliorations de l'Arbre de compétences qui améliorent votre progression globale."
+      },
+      {
+        "question": "Y a-t-il un mode multijoueur dans Drain the Lake ?",
+        "answer": "Drain the Lake se joue sur les serveurs Roblox. Consultez la page officielle du jeu pour les détails actuels sur le multijoueur et les serveurs."
+      },
+      {
+        "question": "Qu'est-ce que l'Arbre de compétences dans Drain the Lake ?",
+        "answer": "L'Arbre de compétences dans Drain the Lake est le système d'amélioration permanente où vous investissez les jetons gagnés pour améliorer la capacité du seau, la collecte et la progression en profondeur."
+      },
+      {
+        "question": "Comment récupérer le téléphone perdu dans Drain the Lake ?",
+        "answer": "Pour récupérer le téléphone perdu dans Drain the Lake, continuez à améliorer votre Arbre de compétences et progressez dans les sections plus profondes du lac jusqu'à ce que vous l'atteigniez."
+      },
+      {
+        "question": "Où puis-je jouer à Drain the Lake ?",
+        "answer": "Vous pouvez jouer à Drain the Lake directement sur Roblox via la page officielle du jeu."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt pour Drain the Lake ?",
+    "description": "Plongez dans Drain the Lake sur Roblox et utilisez nos guides pour améliorer votre seau, planifier vos jetons et récupérer votre téléphone rapidement !",
+    "joinCommunity": "Jouer sur Roblox",
+    "joinGame": "Voir les statistiques du jeu"
+  },
+  "footer": {
+    "title": "Wiki de Drain the Lake",
+    "description": "Votre centre de ressources complet pour les codes de Drain the Lake, les améliorations de seau, l'arbre de compétences, les cycles de vidange, les jetons, les fins et les astuces Roblox.",
+    "resources": "Ressources",
+    "community": "Jeu",
+    "legal": "Mentions légales",
+    "discord": "Jouer sur Roblox",
+    "twitter": "Statistiques du jeu",
+    "steamCommunity": "Astuces pour débutants",
+    "steamStore": "Solution complète",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de Drain the Lake. Non affilié aux développeurs de Drain the Lake ni à Roblox Corporation.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guides de Drain the Lake",
+      "description": "Guides complets de Drain the Lake couvrant la boucle de gameplay principale, les guides pour débutants, les chemins de progression et les astuces pour vider le lac efficacement.",
+      "metaTitle": "Guides de Drain the Lake - Solution, astuces et progression",
+      "metaDescription": "Maîtrisez Drain the Lake grâce aux guides pour débutants, aux solutions, aux chemins de progression et aux astuces pour remplir votre seau, gagner des jetons et récupérer votre téléphone perdu.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Que sont les guides de Drain the Lake ?",
+      "whatIsDescription": "Les guides de Drain the Lake détaillent la boucle principale du jeu : remplir votre seau, vider l'eau pour obtenir des jetons, améliorer l'arbre de compétences et progresser vers des zones plus profondes. Ils vous accompagnent à chaque étape de la progression, de votre premier seau jusqu'au fond du lac.",
+      "why": "Pourquoi utiliser ces guides ?",
+      "whySteps": {
+        "step1Title": "Apprendre la boucle principale",
+        "step1Description": "Comprenez le cycle de remplissage, de vidange et d'amélioration qui rythme chaque partie dans Drain the Lake.",
+        "step2Title": "Progresser plus vite",
+        "step2Description": "Suivez un chemin d'amélioration efficace pour gagner des jetons et débloquer des zones plus profondes avec moins de parties gâchées.",
+        "step3Title": "Éviter les erreurs courantes",
+        "step3Description": "Évitez les mouvements inutiles et la descente précipitée qui ralentissent les nouveaux joueurs."
+      },
+      "featured": "Guides à la une",
+      "all": "Tous les guides"
+    },
+    "codes": {
+      "title": "Codes de Drain the Lake",
+      "description": "Statut des derniers codes de Drain the Lake, fonctionnement de l'activation et sur quoi se concentrer lorsque les codes ne sont pas disponibles.",
+      "metaTitle": "Codes de Drain the Lake - Codes actifs et guide d'activation",
+      "metaDescription": "Vérifiez le statut des derniers codes de Drain the Lake et découvrez comment fonctionne l'activation afin de réclamer des récompenses gratuites dès que les codes seront actifs.",
+      "categoryLabel": "CODES",
+      "whatIs": "Que sont les codes de Drain the Lake ?",
+      "whatIsDescription": "Les codes de Drain the Lake sont des codes promotionnels que les développeurs publient pour obtenir gratuitement des jetons, des boosts ou des objets. Cette page suit le statut actuel des codes et explique exactement comment fonctionnera l'activation dès que les codes seront disponibles.",
+      "why": "Pourquoi vérifier régulièrement les codes ?",
+      "whySteps": {
+        "step1Title": "Obtenir rapidement les nouveaux codes",
+        "step1Description": "Utilisez les codes dès qu'ils sortent pour ne jamais manquer une récompense gratuite.",
+        "step2Title": "Comprendre le système",
+        "step2Description": "Sachez exactement comment et où saisir les codes dans Drain the Lake.",
+        "step3Title": "Restez prêt pour la progression",
+        "step3Description": "Continuez à farmer des jetons et à améliorer votre Arbre de compétences pour progresser en attendant de nouveaux codes."
+      },
+      "featured": "Codes à la une",
+      "all": "Tous les codes"
+    },
+    "tokens": {
+      "title": "Jetons Drain the Lake",
+      "description": "Les meilleurs moyens de gagner des jetons Drain the Lake, incluant les itinéraires de farm rapides, l'emplacement des coffres et l'optimisation des récompenses.",
+      "metaTitle": "Jetons Drain the Lake - Farm rapide, coffres et récompenses",
+      "metaDescription": "Apprenez les moyens les plus rapides de farmer les jetons Drain the Lake, trouvez l'emplacement des coffres et maximisez les récompenses pour améliorer votre Arbre de compétences et aller plus profond.",
+      "categoryLabel": "JETONS",
+      "whatIs": "Que sont les jetons Drain the Lake ?",
+      "whatIsDescription": "Les jetons sont la principale monnaie de progression dans Drain the Lake, obtenus en vidant l'eau collectée. Vous dépensez des jetons pour des améliorations de l'Arbre de compétences qui améliorent la capacité du seau, la vitesse de collecte et la progression en profondeur.",
+      "why": "Pourquoi farmer les jetons efficacement ?",
+      "whySteps": {
+        "step1Title": "Accélérer la progression",
+        "step1Description": "Plus de jetons par session signifie des améliorations plus rapides de l'Arbre de compétences et des plongées plus profondes.",
+        "step2Title": "Trouver les coffres cachés",
+        "step2Description": "Localisez les coffres et les zones de récompense qui donnent des jetons bonus à travers le lac.",
+        "step3Title": "Optimiser votre itinéraire",
+        "step3Description": "Réduisez les déplacements inutiles entre la source d'eau et le point de drainage."
+      },
+      "featured": "Guides de jetons à la une",
+      "all": "Tous les guides de jetons"
+    },
+    "upgrades": {
+      "title": "Améliorations Drain the Lake",
+      "description": "Guides d'améliorations Drain the Lake couvrant l'Arbre de compétences, les meilleures améliorations, les améliorations de seau et de sac à dos pour une progression efficace.",
+      "metaTitle": "Améliorations Drain the Lake - Arbre de compétences, seau et meilleures améliorations",
+      "metaDescription": "Maîtrisez les améliorations de Drain the Lake avec les priorités de l'Arbre de compétences, les améliorations de seau et de sac à dos qui accélèrent le farm de jetons et la progression en profondeur.",
+      "categoryLabel": "AMÉLIORATIONS",
+      "whatIs": "Que sont les améliorations Drain the Lake ?",
+      "whatIsDescription": "Les améliorations de Drain the Lake sont des investissements permanents dans l'Arbre de compétences qui améliorent chaque aspect de votre cycle de jeu, de la capacité du seau et la vitesse de collecte à la taille du sac à dos et la progression en profondeur.",
+      "why": "Pourquoi améliorer stratégiquement ?",
+      "whySteps": {
+        "step1Title": "Éliminez vos goulots d'étranglement",
+        "step1Description": "Identifiez la partie la plus lente de votre cycle et améliorez-la en priorité pour obtenir les meilleurs gains.",
+        "step2Title": "Construire un Arbre de compétences solide",
+        "step2Description": "Priorisez la capacité du seau et l'efficacité des jetons au début pour une progression plus fluide.",
+        "step3Title": "Augmenter la taille du sac à dos et la profondeur",
+        "step3Description": "Agrandissez votre sac à dos et débloquez des zones plus profondes à mesure que vos revenus en jetons augmentent."
+      },
+      "featured": "Guides d'améliorations à la une",
+      "all": "Tous les guides d'améliorations"
+    },
+    "levels": {
+      "title": "Niveaux Drain the Lake",
+      "description": "Guide des niveaux et des zones du lac de Drain the Lake, couvrant les profondeurs, les conditions de déverrouillage et comment atteindre le niveau le plus profond.",
+      "metaTitle": "Niveaux de Drain the Lake - Profondeurs du lac, zones et guide de déverrouillage",
+      "metaDescription": "Explorez les niveaux et les zones de Drain the Lake, apprenez les conditions de déverrouillage pour chaque profondeur et découvrez comment atteindre le niveau le plus profond du lac.",
+      "categoryLabel": "NIVEAUX",
+      "whatIs": "Que sont les niveaux de Drain the Lake ?",
+      "whatIsDescription": "Les niveaux de Drain the Lake sont les paliers de profondeur du lac que vous déverrouillez à mesure que votre arbre de compétences et votre équipement s'améliorent. Chaque niveau ouvre de nouvelles zones, des itinéraires plus longs et une progression vers votre téléphone perdu.",
+      "why": "Pourquoi comprendre le système de niveaux ?",
+      "whySteps": {
+        "step1Title": "Déverrouiller dans le bon ordre",
+        "step1Description": "Sachez quelles profondeurs s'ouvrent ensuite et ce que chaque nouveau niveau requiert.",
+        "step2Title": "Progressez plus profondément en toute sécurité",
+        "step2Description": "Planifiez vos descentes en profondeur en fonction de votre niveau d'amélioration actuel pour rester efficace.",
+        "step3Title": "Atteignez le niveau le plus profond",
+        "step3Description": "Suivez un chemin clair depuis la surface jusqu'au fond du lac."
+      },
+      "featured": "Guides de niveaux à la une",
+      "all": "Tous les guides de niveaux"
+    },
+    "items": {
+      "title": "Objets de Drain the Lake",
+      "description": "Guide des objets et outils de Drain the Lake, couvrant le seau, l'équipement et les objets clés que vous utilisez en vidant le lac.",
+      "metaTitle": "Objets de Drain the Lake - Guide du seau, des outils et de l'équipement",
+      "metaDescription": "Découvrez chaque objet et outil de Drain the Lake, y compris le seau, l'équipement et les objets essentiels qui guident votre progression vers le fond du lac.",
+      "categoryLabel": "OBJETS",
+      "whatIs": "Que sont les objets de Drain the Lake ?",
+      "whatIsDescription": "Les objets de Drain the Lake sont les outils et l'équipement que vous utilisez pour collecter l'eau, la transporter et progresser plus profondément, y compris votre seau, votre sac à dos et les améliorations de votre arbre de compétences.",
+      "why": "Pourquoi connaître les objets ?",
+      "whySteps": {
+        "step1Title": "Utilisez le seau à bon escient",
+        "step1Description": "Comprenez comment la capacité du seau influence chacune de vos expéditions.",
+        "step2Title": "Choisissez le bon équipement",
+        "step2Description": "Adaptez vos outils à votre profondeur et à votre itinéraire actuels pour une efficacité maximale.",
+        "step3Title": "Suivez les objectifs clés",
+        "step3Description": "Gardez le téléphone perdu et les objets essentiels en vue à mesure que vous progressez vers le fond."
+      },
+      "featured": "Guides d'objets à la une",
+      "all": "Tous les guides d'objets"
+    },
+    "locations": {
+      "title": "Lieux de Drain the Lake",
+      "description": "Guide des lieux de Drain the Lake, couvrant les grottes, les grottes secrètes, les zones cachées et les objets de collection disséminés dans le lac.",
+      "metaTitle": "Lieux de Drain the Lake - Grottes, secrets et objets de collection",
+      "metaDescription": "Découvrez les lieux de Drain the Lake, y compris les grottes, les grottes secrètes, les zones cachées et les objets de collection pour explorer pleinement le lac et récupérer votre téléphone perdu.",
+      "categoryLabel": "LIEUX",
+      "whatIs": "Que sont les lieux de Drain the Lake ?",
+      "whatIsDescription": "Les lieux de Drain the Lake sont les grottes, les zones secrètes et les emplacements d'objets de collection cachés dans tout le lac. Les explorer vous permet d'obtenir des jetons, des objets de progression et des indices pour retrouver votre téléphone perdu.",
+      "why": "Pourquoi explorer chaque lieu ?",
+      "whySteps": {
+        "step1Title": "Trouvez des grottes secrètes",
+        "step1Description": "Localisez les grottes cachées qui offrent des jetons supplémentaires et des objets utiles.",
+        "step2Title": "Collectez les objets de collection",
+        "step2Description": "Retrouvez les objets de collection dispersés à chaque niveau de profondeur du lac.",
+        "step3Title": "Déverrouillez des zones cachées",
+        "step3Description": "Atteignez des zones cachées qui accélèrent votre progression globale."
+      },
+      "featured": "Guides des lieux en vedette",
+      "all": "Tous les guides de lieux"
+    }
   }
 }

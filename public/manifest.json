@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Drain the Lake Wiki - Codes, Upgrades & Endings",
+  "short_name": "Drain the Lake",
+  "description": "Drain the Lake Wiki covers codes, bucket upgrades, skill tree, drain cycles, tokens, endings, and tips for the Roblox game where you drain the lake to recover your phone.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#1f74b1",
   "background_color": "#0a0a0a",
   "icons": [
     {

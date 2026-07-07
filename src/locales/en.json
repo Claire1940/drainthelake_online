@@ -10,14 +10,7 @@
       "twitterDescription": "Drain the Lake Wiki covers codes, bucket upgrades, drain cycles, tokens, endings, and tips for the Roblox lake-draining simulator."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
